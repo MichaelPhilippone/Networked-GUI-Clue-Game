@@ -1,0 +1,237 @@
+{\rtf1\ansi\ansicpg1252\deff0\uc1{\fonttbl{\f0\fcharset0 Times New Roman;}{\f1\fcharset0
+Times;}{\f2\fcharset128 Times New Roman;}}{\colortbl ;}{\stylesheet{\s0\nowidctlpar
+\nooverflow\sl240\slmult1\f0\fs20\kerning28 Normal;}}\paperw12240\paperh15840\margt1134
+\margl1134\margr1134\margb1134\headery720\footery720\deftab720\pgnstart1\viewkind1
+\viewscale100\fet0{\*\docvar{ColorSet}{-1}}{\*\docvar{ColorPos}{-1}}{\*\docvar{StyleSet
+}{-1}}{\*\docvar{StylePos}{-1}}\pard\plain\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\tx560\tx1120\tx1680
+\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\dbch\af2\loch\af1
+\hich\f1\lang1279\fs36\kerning28{\header\pard\nowidctlpar\nooverflow\sl240\slmult1
+\tqc\tx4986\tqr\tx9972{\fs20\par}
+
+\fs20\par}{\footer\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\tqc\tx4320
+\tqr\tx8640{\fs24{\chpgn}\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\ri360\tqc\tx4320\tqr\tx8640{
+\fs24\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\ri360\tqc\tx4320\tqr\tx8640{
+\fs20\par}
+
+\fs20\par}Supported Activities{\fs24      \tab\tab\tab\tab\tab\tab\tab                   (
+Green Team)\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\tx560\tx1120\tx1680\tx2240\tx2800
+\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\dbch\af2\loch\af1\hich\f1\lang1279
+\fs24\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li720\tx560\tx720\tx1120
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\pntext 1)
+\tab}{\*\pn\pnlvlbody\pndec\pnql\pnstart1\pnindent360{\pntxta )}}{\dbch\af2\loch
+\af1\hich\f1\lang1279\fs24\kerning28   Game Begins (System Start)\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 a{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 Allow players to connect and assign first connected player Miss Scarlet
+\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 b{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1  {\lang1033\u8220\'93}shuffle{\lang1033\u8221\'94} cards, choose the three
+ mystery cards and deal the remaining\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li720\tx560\tx720\tx1120
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\pntext 2)
+\tab}{\*\pn\pnlvlbody\pndec\pnql\pnstart2\pnindent360{\pntxta )}}{\dbch\af2\loch
+\af1\hich\f1\lang1279\fs24\kerning28   Typical Turn (no room entered)\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 c{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab{\dbch\af2\loch\af1
+\hich\f1 System will automatically rolls for the player{\lang1279\par}}}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 d{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 System will determine all possible locations to move the players piece 
+based on the dice roll\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 e{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 Player chooses to which location they would like to move their piece\par
+}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\li360\tx560\tx1120\tx1680\tx2240
+\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\dbch\af2\loch\af1\hich
+\f1\lang1279\fs24\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li720\tx560\tx720\tx1120
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\pntext 3)
+\tab}{\*\pn\pnlvlbody\pndec\pnql\pnstart3\pnindent360{\pntxta )}}{\dbch\af2\loch
+\af1\hich\f1\lang1279\fs24\kerning28   Typical Turn (room entered)\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 f{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab{\dbch\af2\loch\af1
+\hich\f1 System will automatically rolls for the player{\lang1279\par}}}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 g{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 System will determine all possible locations to move the players piece 
+based on the dice roll\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 h{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 If player can and chooses to,  allow player to enter a room\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 i{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 Game should dissolve remaining number of spaces left to move in turn\par
+}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 j{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 allow player option to make a guess\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-180\li2160\tx560\tx1120\tx1680
+\tx2160\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 i{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 Player can name a suspected player, a weapon and the currently occupied
+ room as a suggestion for {\lang1033\u8220\'93}Whodunnit?{\lang1033\u8221\'94}\par
+}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 k{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 Moving in play order, the first player with at least one of the three guessed
+ cards will be pointed out \par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-180\li2160\tx560\tx1120\tx1680
+\tx2160\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 i{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 The pointed-out player can choose which cards (if possible) to show\par
+}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 l{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 During a guess, the suspected character{\lang1033\u8217\'92}s avatar is
+ moved to the suspected room, they are allowed a guess on the start of their next
+ turn.\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\tx560\tx1120\tx1680\tx2240\tx2800
+\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\dbch\af2\loch\af1\hich\f1\lang1279
+\fs24\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li720\tx560\tx720\tx1120
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\pntext 4)
+\tab}{\*\pn\pnlvlbody\pndec\pnql\pnstart4\pnindent360{\pntxta )}}{\dbch\af2\loch
+\af1\hich\f1\lang1279\fs24\kerning28   Typical Turn (Secret Passage)\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 m{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 Player in a room will be allowed the choice to move by spaces or (if possible
+) by Secret Passage\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 n{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 player can move by secret passage instead of by spaces and will move to
+ the opposite corner room from the current room by the use of the secret passage
+\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-180\li2160\tx560\tx1120\tx1680
+\tx2160\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 i{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 Upon entering new room, player can choose to make a guess\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\tx560\tx1120\tx1680\tx2240\tx2800
+\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\dbch\af2\loch\af1\hich\f1\lang1279
+\fs24\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li720\tx560\tx720\tx1120
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\pntext 5)
+\tab}{\*\pn\pnlvlbody\pndec\pnql\pnstart5\pnindent360{\pntxta )}}{\dbch\af2\loch
+\af1\hich\f1\lang1279\fs24\kerning28   Guess\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 o{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 Whenever a player enters a room on their turn, or is in a room because 
+they were dragged the{\lang1033 re} on a previous guess, they may make a guess\par
+}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 p{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 Player must guess which 2 cards (player and weapon, room the guessing player
+ is in is implied) they think may be in the mystery folder.\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 q{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 The first player, going in the order of turns, who can disprove the guess
+ must show one of their cards that was one of the cards guessed.\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 r{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 A correct guess will result in no one disproving the guess, and game play
+ continues.\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\li360\tx560\tx1120\tx1680\tx2240
+\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\dbch\af2\loch\af1\hich
+\f1\lang1279\fs24\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li720\tx560\tx720\tx1120
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\pntext 6)
+\tab}{\*\pn\pnlvlbody\pndec\pnql\pnstart6\pnindent360{\pntxta )}}{\dbch\af2\loch
+\af1\hich\f1\lang1279\fs24\kerning28   Accusation\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 s{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 At any time {\lang1033 during a player\u8217\'92s turn,} a player can opt
+ to make an accusation as to \tab  {\lang1033\u8220\'93}Whodunnit?{\lang1033\u8221
+\'94}, with what and where\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 t{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 Player then is allowed to see the mystery cards\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-180\li2160\tx560\tx1120\tx1680
+\tx2160\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 i{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 If they are right, they win, if not, they lose and are only allowed to 
+disprove other players{\lang1033\u8217\'92} guesses\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\li360\tx560\tx1120\tx1680\tx2240
+\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\dbch\af2\loch\af1\hich
+\f1\lang1279\fs24\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li720\tx560\tx720\tx1120
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\pntext 7)
+\tab}{\*\pn\pnlvlbody\pndec\pnql\pnstart7\pnindent360{\pntxta )}}{\dbch\af2\loch
+\af1\hich\f1\lang1279\fs24\kerning28   Win  (system terminate)\par}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1279
+\fs24\kerning28 u{\dbch\af2\loch\af1\hich\f1 .}{\lang1033\tab}{\dbch\af2\loch\af1
+\hich\f1 If a player makes a correct accusation, they are the winner and the game
+ ends\par}}
+
+\pard\nowidctlpar\nooverflow\hyphpar0\sl240\slmult1\fi-360\li1440\tx560\tx1120\tx1440
+\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720{\f1\lang1033
+\fs24\kerning28 v{\dbch\af2\loch\af1\hich\f1\lang1279 .}\tab{\dbch\af2\loch\af1\hich
+\f1\lang1279 After a winner is determined, the system will halt execution and disconnect
+ all players\par}}
+
+}

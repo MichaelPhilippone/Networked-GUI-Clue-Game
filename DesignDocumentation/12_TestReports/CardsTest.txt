@@ -1,0 +1,80 @@
+PROGRAM STARTED AT: 12/ 17/2008 12:0:46  (mm/dd/yyy hh:mm:ss)
+
+
+
+!THIS IS THE UNIT TEST FOR THE CARDS CLASS!
+-------------------------------------------
+This is a test to see if the cards are being shuffled, 
+being assigned an owner, and if that owner is able to 
+be gotten.
+Expected output is 3 different decks, and each owner owning 
+a different set of 3 cards each deck.
+
+Shuffle #1
+Card: Professor_Plum   Owner: 0
+Card: Kitchen   Owner: 0
+Card: Rope   Owner: 0
+Card: Candlestick   Owner: 1
+Card: Mr._Green   Owner: 1
+Card: Dining_Room   Owner: 1
+Card: Ballroom   Owner: 2
+Card: Revolver   Owner: 2
+Card: Pipe   Owner: 2
+Card: Knife   Owner: 3
+Card: Colonel_Mustard   Owner: 3
+Card: Study   Owner: 3
+Card: Library   Owner: 4
+Card: Lounge   Owner: 4
+Card: Hall   Owner: 4
+Card: Observatory   Owner: 5
+Card: Mrs._Peacock   Owner: 5
+Card: Miss_Scarlet   Owner: 5
+Card: Wrench   Owner: 6
+Card: Billiard_Room   Owner: 6
+Card: Miss_White   Owner: 6
+---------------------
+Shuffle #2
+Card: Colonel_Mustard   Owner: 6
+Card: Library   Owner: 3
+Card: Miss_Scarlet   Owner: 6
+Card: Wrench   Owner: 2
+Card: Dining_Room   Owner: 2
+Card: Miss_White   Owner: 1
+Card: Knife   Owner: 4
+Card: Mr._Green   Owner: 4
+Card: Candlestick   Owner: 5
+Card: Mrs._Peacock   Owner: 2
+Card: Observatory   Owner: 0
+Card: Kitchen   Owner: 5
+Card: Ballroom   Owner: 0
+Card: Revolver   Owner: 6
+Card: Billiard_Room   Owner: 5
+Card: Pipe   Owner: 3
+Card: Hall   Owner: 3
+Card: Study   Owner: 0
+Card: Rope   Owner: 1
+Card: Lounge   Owner: 4
+Card: Professor_Plum   Owner: 1
+---------------------
+Shuffle #3
+Card: Billiard_Room   Owner: 3
+Card: Kitchen   Owner: 0
+Card: Study   Owner: 2
+Card: Candlestick   Owner: 1
+Card: Knife   Owner: 3
+Card: Ballroom   Owner: 4
+Card: Rope   Owner: 1
+Card: Lounge   Owner: 6
+Card: Observatory   Owner: 5
+Card: Colonel_Mustard   Owner: 1
+Card: Professor_Plum   Owner: 3
+Card: Mr._Green   Owner: 0
+Card: Dining_Room   Owner: 6
+Card: Miss_White   Owner: 2
+Card: Miss_Scarlet   Owner: 5
+Card: Wrench   Owner: 2
+Card: Pipe   Owner: 6
+Card: Hall   Owner: 4
+Card: Revolver   Owner: 5
+Card: Library   Owner: 0
+Card: Mrs._Peacock   Owner: 4

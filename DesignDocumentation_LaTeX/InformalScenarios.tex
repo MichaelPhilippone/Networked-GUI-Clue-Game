@@ -1,0 +1,70 @@
+\part{Informal Scenarios}
+
+\textbf{Scenario Name:} Preload \\
+\textbf{Current State:} Idle server, program has not been launched, idle players, programs not launched. \\
+\textbf{Scenario:} The program on the server is started, which begins the game.  Players can launch their programs and connect to the server. \\
+\textbf{Next Scenario:} Start Game
+\\ \\
+\textbf{Scenario Name:} Start game \\
+\textbf{Current State:} The board is drawn and cards are shuffled to all six players. Three cards are placed at the center of the board. Miss. Scarlet (first player to join) goes first then game play moves in the order in which the other 5 players connected. \\
+\textbf{Next Scenario:} Standard turn
+\\ \\
+\textbf{Scenario Name:} Standard turn \\
+\textbf{Current State:} Player 6’s turn to play \\
+\textbf{Scenario:} Player 6 rolls a 3 and moves the piece 3 spaces along the board in the shape of an “L” and lands on a different spot on the board. Turn ends for player 6, next player’s turn. \\
+\textbf{Next Scenario:} Standard turn, enter room, correct guess, incorrect guess, move by secret passageway, accuse, game end. 
+\\ \\
+\textbf{Scenario Name:} move by secrete passageway \\
+\textbf{Current State:}  Player 5 is in a room \\
+\textbf{Scenario:} Player 5 uses the secret passageway in the room
+and advances to the connecting room across the board. 
+Player may guess or end turn. \\
+\textbf{Next Scenario:} correct guess, incorrect guess, 
+accuse, standard turn, game end. 
+\\ \\
+\textbf{Scenario Name:} Enter room \\
+\textbf{Current State:}  Player 2 rolls a 3 \\
+\textbf{Scenario:} Player 2 advances 2 spaces, into a room and forfeits the
+last move. Player 2 may guess or end turn. \\
+\textbf{Next Scenario:} correct guess, incorrect guess, accuse, 
+move by secrete passageway, game end, standard turn. 
+\\ \\
+\textbf{Scenario Name:} Incorrect Guess \\
+\textbf{Current State:}  Player 3 just entered a room \\
+\textbf{Scenario:}  Player 3 is in a room and guesses that 
+Mr. Green committed the murder with a wrench in the 
+currently located room. Mr. Green is moved from his location
+to the room player 3 is currently situated. Player 1 shows
+player 3 the wrench card and player 3’s guess is disproved.
+Player 3 ends turn. \\
+\textbf{Next Scenario:} standard turn, correct guess, incorrect guess, move by secrete passageway, accuse, game end. 
+\\ \\
+\textbf{Scenario Name:} Correct Guess \\
+\textbf{Current State:}  Player 3 just entered a room \\
+\textbf{Scenario:}  Player 3 is in a room and guesses that 
+Miss Scarlet committed the murder with a wrench in the room currently
+located at. Miss Scarlet is moved from her location to the room 
+player 3 is currently situated. No player had the cards mentioned
+in player 3’s guess. Player 3 ends turn. \\
+\textbf{Next Scenario:} standard turn, correct guess, incorrect guess, move by secrete passageway, accuse, game end. 
+\\ \\
+\textbf{Scenario Name:} Accuse \\
+\textbf{Current State:} Player 4’s turn \\
+\textbf{Scenario:} Player 4 makes an accusation. Player 4 accuses Mrs. White of 
+committing the murder with a knife in the bathroom. Player 4 looks at 
+the center cards and does not find the knife card. Player 4 cannot 
+move or guess or accuse again. Player remains only to disprove other 
+guesses. Next player’s turn. \\
+\textbf{Next Scenario:} standard turn, correct guess, 
+incorrect guess, move by secrete passageway, accuse, game end. 
+\\ \\
+\textbf{Scenario Name:} Game end \\
+\textbf{Current State:} Player 2’s turn \\
+\textbf{Scenario:} Player 2 makes an accusation. Player 2 
+accuses Mrs. White of committing the murder with 
+a wrench in the kitchen. Player 2 looks at the 
+center cards and finds the exact same cards just
+mentioned. The cards are revealed to all players
+and the game is over, player 4 wins.  \\
+\textbf{Next Scenario:} NA
+\\

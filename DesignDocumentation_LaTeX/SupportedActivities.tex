@@ -1,0 +1,69 @@
+\part{Supported Activities}
+
+\begin{enumerate}
+
+	\item Game Begins (System Start)
+		\begin{enumerate}
+			\item Allow players to connect and assign first connected player Miss Scarlet
+			\item `shuffle' cards, choose the three mystery cards and deal the remaining
+		\end{enumerate}
+		
+	\item Typical Turn (no room entered)
+		\begin{enumerate}
+			\item System will automatically rolls for the player
+			\item System will determine all possible locations to move the players piece based on the dice roll
+			\item Player chooses to which location they would like to move their piece
+		\end{enumerate}
+		
+	\item Typical Turn (room entered)
+		\begin{enumerate}
+			\item System will automatically rolls for the player
+			\item System will determine all possible locations to move the players piece based on the dice roll
+			\item If player can and chooses to,  allow player to enter a room
+			\item Game should dissolve remaining number of spaces left to move in turn
+			\item Allow player option to make a guess
+				\begin{enumerate}
+					\item Player can name a suspected player, a weapon and the currently occupied room as a suggestion for `Whodunnit?'
+				\end{enumerate}
+			\item Moving in play order, the first player with at least one of the three guessed cards will be pointed out
+				\begin{enumerate}
+					\item The pointed-out player can choose which cards (if possible) to show
+				\end{enumerate}
+			\item During a guess, the suspected character’s avatar is moved to the suspected room, they are allowed a guess on the start of their next turn.
+		\end{enumerate}
+			
+	\item Typical Turn (Secret Passage)
+		\begin{enumerate}
+			\item Player in a room will be allowed the choice to move by spaces or (if possible) by Secret Passage
+			\item Player can move by secret passage instead of by spaces and will move to the opposite corner room from the current room by the use of the secret passage
+				\begin{enumerate}
+					\item Upon entering new room, player can choose to make a guess
+				\end{enumerate}
+		\end{enumerate}
+
+	\item Guess
+		\begin{enumerate}
+			\item Whenever a player enters a room on their turn, or is in a room because they were dragged their on a previous guess, they may make a guess
+			\item Player must guess which 2 cards (player and weapon, room the guessing player is in is implied) they think may be in the mystery folder.
+			\item The first player, going in the order of turns, who can disprove the guess must show one of their cards that was one of the cards guessed.
+			\item A correct guess will result in no one disproving the guess, and gameplay continues.
+		\end{enumerate}
+
+	\item Accusation
+		\begin{enumerate}
+			\item At any time and in any room a player can opt to make an accusation as to `Whodunnit?', with what and where
+			\item Player then is allowed to see the mystery cards
+				\begin{enumerate}
+					\item If they are right, they win, if not, they lose and are only allowed to 	disprove other players’ suggestions / guesses
+				\end{enumerate}
+		\end{enumerate}
+		
+	\item Win (system terminate)
+		\begin{enumerate}
+			\item If a player makes a correct accusation, they are the winner and the game ends
+			\item[OR]
+			\item Last player with a piece in play wins by default
+			\item After a winner is determined, the system will halt execution and disconnect all players
+		\end{enumerate}
+		
+\end{enumerate}

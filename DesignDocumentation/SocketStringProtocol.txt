@@ -1,0 +1,61 @@
+Protocol for Clue game Socket communication
+
+******************************************************
+Client -> Server communications
+******************************************************
+  
+  "move <X> <Y>" 
+    - X: the x coordinate of the space to which to move
+    - Y: the y coordinate of the space to which to move
+  
+  "endturn"
+    - the player has opted to end his or her turn
+  
+  "guess <CHARACTER> <WEAPON> <ROOM>"
+    - CHARACTER: the guessed character who did the crime
+    - ROOM: the guessed room where the crime occurred
+    - WEAPON: the weapon that was used in the crime
+  
+  "accuse <CHARACTER> <WEAPON> <ROOM>"
+    - CHARACTER: the guessed character who did the crime
+    - ROOM: the guessed room where the crime occurred
+    - WEAPON: the weapon that was used in the crime
+  
+  "showcard <CARD>"
+    - CARD: card that the user is showing to disprove a guess
+  
+  "log <STR>"
+    - STR : string message to print in the Server's log
+  
+  "exit"
+    - disconnect the invoking player from the game
+  
+  "testingshutdown"
+     - message signifying that a partial test requiring 
+       Server process usage has ended and the Server should 
+       shut down before the game finishes
+  
+******************************************************
+Server -> Client communications
+******************************************************  
+
+  "update <X1>,<Y1>,<COLOR1>,<true/false>;...;<Xn>,<Yn><COLORn>,<true/false>"
+    - X_ : an X coordinate to update on the GUI
+    - Y_ : a Y coordinate to update on the GUI
+    - <true/false>: the boolean logic for 
+      whether or not the cell at X Y is clickable
+    - <COLOR> : specifies color change for cell
+
+  "havecard <C1>;<C2>;...;<Cn>"
+    - informing the Client of cards that were dealt 
+      (should only be used at startup)
+    
+  "choosecard <C1>;<C2>[;<C3>]"
+    - C_ : card that the user can choose to show (up to three)
+  
+  "inform <STR>"
+    - STR : string to show to 'inform' the person playing
+  
+  "gameover [<X>]"
+    - X: the player with name X has won, 
+      (if specified) and the game has ended

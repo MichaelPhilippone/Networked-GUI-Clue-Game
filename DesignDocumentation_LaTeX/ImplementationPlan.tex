@@ -1,0 +1,100 @@
+\part{Implementation Plan}
+
+
+\textbf{Explanation:} \\* For our implementation we have chosen to use 
+the Threaded design method, but with a few tweaks.  We have created 
+threads based on some obvious divisions in the system, and then within 
+them we divided the implementation into a collection bottom-up components.
+
+\textbf{
+\textit{
+	This Implementation plan was NOT adhered to.  
+	Once we began development, roles shifted and the plan morphed based on 
+	each group member's ability within the project.
+}}
+
+
+\begin{itemize}
+	\item Phase 01 (9 NOV 2008): 		\textbf{(Server-Side Development)}
+	\begin{itemize}
+		\item Network Components development	\textcolor{red}{(code:~Mike)}
+		\item User management components			\textcolor{red}{(code:~Erich)}
+		\item GameLogic Components			
+			\begin{itemize}
+				\item GameBoard sub-components		\textcolor{red}{(code:~Matt)}
+				\item GameBoard										\textcolor{red}{(code:~Matt)}
+				\item Dice and Cards							\textcolor{red}{(code:~Matt)}
+			\end{itemize}
+		\end{itemize}
+	
+	\item Phase 02 (16 NOV 2008): \textbf{(Server Unit Testing)}
+	\begin{itemize}
+		\item Develop suite of drivers to test all functions 
+			\begin{itemize}
+				\item User creation / management tests		\textcolor{red}{(test:~Mike)}
+				\item Network message passing tests				\textcolor{red}{(test:~Erich)}
+				\item GameLogic testing										\textcolor{red}{(test:~Todd)}
+					\begin{itemize}
+						\item Create a board
+						\item Simulate moves / guesses / accusations
+						\item Test for game rule adherence
+						\item Respond to player requests
+					\end{itemize}	
+				\item Full server testing									\textcolor{red}{(test:~Matt)}
+					\begin{itemize}
+						\item Listen for incoming connection requests
+						\item Create users
+						\item Communicate with users
+						\item Respond to and update user requests
+					\end{itemize}	
+		\end{itemize}	
+	\end{itemize}	
+	
+	\item Phase 03  (30 NOV 2008):  \textbf{(Client-Side Development)}
+		\begin{itemize}
+			\item Client class (client-side driver)													\textcolor{red}{(code:~Matt)}
+			\item BoardModel components																			\textcolor{red}{(code:~Mike)}
+				\begin{itemize}
+					\item Create cell objects to represent grid squares in BoardModel grid
+					\item Create array to represent board
+					\item Code the BoardModel update functionality
+				\end{itemize}	
+			\item Network components 
+				\begin{itemize}
+					\item from server-side development, use same socket class		\textcolor{red}{(code:~Todd)}
+				\end{itemize}	
+			\item GUI
+				\begin{itemize}
+					\item Board representation																	\textcolor{red}{(code:~Mike)}
+					\item Users’ Cards																					\textcolor{red}{(code:~Matt)}
+					\item Events and their listeners														\textcolor{red}{(code:~Mike \& Todd)}
+					\item Menu Bar																							\textcolor{red}{(code:~Todd)}
+					\item Server message display																\textcolor{red}{(code:~Erich)}
+					\item Game play controls (Move, Guess, Accuse, buttons)			\textcolor{red}{(code:~Erich)}
+				\end{itemize}	
+		\end{itemize}	
+	
+	\item Phase 04 (4 DEC 2008):  \textbf{(Client Unit Testing)}
+		\begin{itemize}
+			\item Assuming the Server is already functional:
+				\begin{itemize}
+					\item Test the message passing and receiving						\textcolor{red}{(test:~Erich)}
+					\item Test BoardModel Updates														\textcolor{red}{(test:~Matt)}
+					\item Test GUI’s ability to display board / game info		\textcolor{red}{(test:~Mike)}
+					\item Test GUI’s ability to respond to user input				\textcolor{red}{(test:~Todd)}
+				\end{itemize}
+			\item Test Exceptional conditional (run-time and compile-time errors)
+		\end{itemize}
+	
+	\item Phase 05 \textbf{(7 DEC 2008)}: \textbf{(Integration Testing)}
+		\begin{itemize}
+			\item Test guesses and accusations		\textcolor{red}{(test:~Mike)}
+			\item Test “AI” 											\textcolor{red}{(test:~Todd)}
+				\begin{itemize}
+					\item When a user quits / their connection is 
+						lost / Accuses wrongly, the computer assumes 
+						their role in playing ‘silently’
+				\end{itemize}
+			\end{itemize}
+			
+\end{itemize}

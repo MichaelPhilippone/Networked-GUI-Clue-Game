@@ -1,0 +1,104 @@
+PROGRAM STARTED AT: 12/ 17/2008 12:5:54  (mm/dd/yyy hh:mm:ss)
+
+
+
+Below are the tests for the guess() method.  
+			Testing all combinations of true and false
+GAMELOGIC: piece relocated, card owners found, 
+           beginning determine which to show
+GAMELOGIC: some one can disprove guess, either 6, 6, or 8
+GAMELOGIC: owner order is: 8 12 12
+GAMELOGIC: Two belong to one player
+
+GAMELOGIC: piece relocated, card owners found, 
+           beginning determine which to show
+GAMELOGIC: some one can disprove guess, either 6, 6, or 8
+GAMELOGIC: owner order is: 8 12 12
+GAMELOGIC: Two belong to one player
+null
+GAMELOGIC: piece relocated, card owners found, 
+           beginning determine which to show
+GAMELOGIC: some one can disprove guess, either 6, 6, or 8
+GAMELOGIC: owner order is: 8 12 12
+GAMELOGIC: Two belong to one player
+null
+GAMELOGIC: piece relocated, card owners found, 
+           beginning determine which to show
+GAMELOGIC: some one can disprove guess, either 6, 6, or 8
+GAMELOGIC: owner order is: 8 12 12
+GAMELOGIC: Two belong to one player
+8
+------
+GAMELOGIC: piece relocated, card owners found, 
+           beginning determine which to show
+GAMELOGIC: some one can disprove guess, either 6, 6, or 8
+GAMELOGIC: owner order is: 8 12 12
+GAMELOGIC: Two belong to one player
+
+GAMELOGIC: piece relocated, card owners found, 
+           beginning determine which to show
+GAMELOGIC: some one can disprove guess, either 6, 6, or 8
+GAMELOGIC: owner order is: 8 12 12
+GAMELOGIC: Two belong to one player
+null
+GAMELOGIC: piece relocated, card owners found, 
+           beginning determine which to show
+GAMELOGIC: some one can disprove guess, either 6, 6, or 8
+GAMELOGIC: owner order is: 8 12 12
+GAMELOGIC: Two belong to one player
+null
+GAMELOGIC: piece relocated, card owners found, 
+           beginning determine which to show
+GAMELOGIC: some one can disprove guess, either 6, 6, or 8
+GAMELOGIC: owner order is: 8 12 12
+GAMELOGIC: Two belong to one player
+8
+------
+-------------------
+**Below are the tests for the accuse() method.  
+Testing all combinations of true and false**
+
+Calling accuse() and passing in T-T-T. Expected output is true.
+Output:true
+
+Calling accuse() and passing in T-T-F. Expected output is false.
+Output:false
+
+Calling accuse() and passing in T-F-T. Expected output is false.
+Output:false
+
+Calling accuse() and passing in T-F-F. Expected output is false.
+Output:false
+
+Calling accuse() and passing in F-T-T. Expected output is false.
+Output:false
+
+Calling accuse() and passing in F-T-F. Expected output is false.
+Output:false
+
+Calling accuse() and passing in F-F-T. Expected output is false.
+Output:false
+
+Calling accuse() and passing in F-F-F. Expected output is false.
+Output:false
+
+Calling accuse() and passing in apple-banana-orange 
+			(These cards do not exist!).  Expected output is false.
+Output:false
+-------------------
+**Below are the tests for the nextPlayer() method.**
+Player: 0 <--- This is the first player's turn.
+Then we run the nextPlayer() method.
+Player: 1 <--- This is the second player's turn.
+Then we run the nextPlayer() method.
+Player: 2 <--- This is the third player's turn.
+Then we run the nextPlayer() method.
+Player: 3 <--- This is the fourth player's turn.
+Then we run the nextPlayer() method.
+Player: 4 <--- This is the fifth player's turn.
+Then we run the nextPlayer() method.
+Player: 5 <--- This is the sixth player's turn.
+Then we run the nextPlayer() method.
+Player: 0 <--- Return back to the first player's turn.
+-------------------
+**Below are the tests for the move() method.**

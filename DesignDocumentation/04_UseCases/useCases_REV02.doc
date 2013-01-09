@@ -1,0 +1,211 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf480
+{\fonttbl\f0\froman\fcharset77 TimesNewRomanMS;\f1\froman\fcharset77 TimesNewRomanBdMS;}
+{\colortbl;\red255\green255\blue255;}
+{\info
+{\title }
+{\subject }
+{\doccomm }
+{\author }
+{\*\company }
+{\*\copyright }
+{\keywords cursorLocation=2957}}\vieww15520\viewh14620\viewkind1\viewscale100
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs24 \cf0 \
+\
+\pard\pardeftab720\ql\qnatural
+
+\fs20 \cf0 \
+\pard\pardeftab720\ql\qnatural
+
+\f1\b\fs24 \cf0 \
+Name
+\f0\b0 : Start\
+
+\f1\b Actors
+\f0\b0 : Client, Server\
+
+\f1\b Precondition
+\f0\b0 : None\
+
+\f1\b Trigger
+\f0\b0 : Some one desires to start the game\
+
+\f1\b Main Flow
+\f0\b0 :\
+\pard\pardeftab720\li360\fi-360\ql\qnatural
+\cf0 The server is started and program launched\
+The clients are started and programs launched\
+Clients attempt to connect to server\
+Server makes connections, remembering order that they were made\
+Server assigns pieces based on connection order\
+Server creates a board\
+Server randomizes cards, keeps a room, weapon, and person card\
+Server distributes other cards\
+Server sends board to clients\
+Server sends message to first connection beginning game play\
+\pard\pardeftab720\ql\qnatural
+
+\f1\b \cf0 Exceptional Flow
+\f0\b0 : Network error or server error\
+
+\f1\b Alternate Flow
+\f0\b0 : Error, not enough players joined\
+
+\f1\b Post-condition
+\f0\b0 : Game play in progress\
+
+\f1\b Author/Date
+\f0\b0 : Green Team, September 29, 2008; revised October 6, 2008\
+\page \
+\
+\pard\pardeftab720\ql\qnatural
+
+\fs20 \cf0 \
+\pard\pardeftab720\ql\qnatural
+
+\f1\b\fs24 \cf0 Name
+\f0\b0 : Move\
+
+\f1\b Actors
+\f0\b0 : Server and Client\
+
+\f1\b Precondition
+\f0\b0 : Game play in progress, player\'d5s turn\
+
+\f1\b Trigger
+\f0\b0 : Previous move over message received by server\
+
+\f1\b Main Flow
+\f0\b0 :\
+\pard\pardeftab720\li360\fi-360\ql\qnatural
+\cf0 Server generates a random integer between 1 and 6\
+Server computes all (out of a room, into a room, through passage, or along corridor) possible ending spaces from player\'d5s current position\
+Server sends client updated board\
+Client chooses end position\
+Client sends position to server\
+Server updates game board\
+Server updates board for all players\
+\pard\pardeftab720\ql\qnatural
+
+\f1\b \cf0 Exceptional Flow
+\f0\b0 : Network error\
+
+\f1\b Alternate Flow
+\f0\b0 : None\
+
+\f1\b Post-condition
+\f0\b0 : Turn continues (guess may be possible) (accuse may be possible)\
+
+\f1\b Author/Date
+\f0\b0 : Green Team, September 29, 2008; revised December 13, 2008\
+\
+\
+\page \
+\pard\pardeftab720\ql\qnatural
+
+\fs20 \cf0 \
+\pard\pardeftab720\ql\qnatural
+
+\fs24 \cf0 \
+\pard\pardeftab720\ql\qnatural
+
+\f1\b \cf0 Name
+\f0\b0 : Guess\
+
+\f1\b Actors
+\f0\b0 : Server and Client (s)\
+
+\f1\b Precondition
+\f0\b0 : Player\'d5s turn and located in a room that they haven\'d5t guessed while being \
+		in on this turn\
+
+\f1\b Trigger
+\f0\b0 : Player selects guess button\
+
+\f1\b Main Flow
+\f0\b0 :\
+\pard\pardeftab720\li360\fi-360\ql\qnatural
+\cf0 A form appears over the client GUI containing selectable options for each player, room, and weapon\
+Player selects a combination of one weapon, one player, and the current room is pre-selected and unchangeable\
+Combination is sent to server\
+Server moves guessed player\'d5s piece to guessed room\
+Server looks up player cards for first match in order of joining\
+A player that has a match is queried to show the match or one if they have multiple\
+That card is shown to guessing player along with which player had it\
+All players notified of guess made, what the guess was and that it was disproved\
+Updated board is sent to all players\
+\pard\pardeftab720\ql\qnatural
+
+\f1\b \cf0 Exceptional Flow
+\f0\b0 : Network error\
+
+\f1\b Alternate Flow
+\f0\b0 : Server is unable to find a match among other players\
+\pard\pardeftab720\li360\fi-360\ql\qnatural
+\cf0 Message returned to guessing player that no match was found\
+All players notified that a guess was made, what the guess was, and that it couldn\'d5t be disproved\
+Boards are updated\
+\pard\pardeftab720\ql\qnatural
+
+\f1\b \cf0 Post-condition
+\f0\b0 : Game state is updated to reflect changes \
+
+\f1\b Author/Date
+\f0\b0 : Green Team September 29, 2008; revised December 13, 2008\
+\page \pard\pardeftab720\ql\qnatural
+
+\fs20 \cf0 \
+\
+\pard\pardeftab720\ql\qnatural
+
+\f1\b\fs24 \cf0 Name
+\f0\b0 : Accusation\
+
+\f1\b Actors
+\f0\b0 : Server and Client\
+
+\f1\b Precondition
+\f0\b0 : Player\'d5s turn\
+
+\f1\b Trigger
+\f0\b0 : Player selects accuse button\
+
+\f1\b Main Flow
+\f0\b0 :\
+\pard\pardeftab720\li360\fi-360\ql\qnatural
+\cf0 A form appears over the client GUI containing selectable options for each player, room, and weapon\
+Player selects a combination of one weapon, one player, and one room\
+Combination is sent to server\
+Server verifies against saved cards\
+Server updates game board for all player with game over message, player name has won\
+Server closes connections to players\
+Server resets itself, waits for connections\
+\pard\pardeftab720\ql\qnatural
+
+\f1\b \cf0 Exceptional Flow
+\f0\b0 : Network error\
+
+\f1\b Alternate Flow
+\f0\b0 : Server finds the combo to not match.\
+\pard\pardeftab720\li360\fi-360\ql\qnatural
+\cf0 Player\'d5s status is changed to show cards only status.\
+Server sends message to players that this player made a wrong accusation, what it was, and that the player is out\
+\pard\pardeftab720\ql\qnatural
+\cf0 Server finds the combo to not match and this is the last active player\
+\pard\pardeftab720\li360\fi-360\ql\qnatural
+\cf0 Server sends a message to all players telling them that no one won and what the solution was\
+Server closes connections to players\
+Server resets itself\
+\pard\pardeftab720\ql\qnatural
+
+\f1\b \cf0 Post-condition
+\f0\b0 : Game ends or next player\'d5s turn\
+
+\f1\b Author/Date
+\f0\b0 : Green Team, September 29, 2008; revised December 13, 2008\
+\pard\pardeftab720\ql\qnatural
+
+\fs20 \cf0 \
+}

@@ -1,0 +1,33 @@
+graph bg{
+
+Server--ServerListener;
+Server--GameLogic;
+Server--"Users\nArray[6]";
+
+GameLogic--"GameBoard\nBoard[10][10]\nLinkRooms[9]";
+GameLogic--"Cards\nPlayer1:Hall,Dining Room, Knife\nPlayer2:White,Kitchen,Candlestick\nPlayer3:Mustard,Billard Room,Observatory\nPlayer4:Green,Library,Rope\nPlayer5:Peacock,Study,Pipe\nPlayer6:Lounge,Scarlet,Revolver\nCorrect:Plum,Ball Room,Wrench" ;
+GameLogic--"Dice\nRandom:1-6";
+
+"GameBoard\nBoard[10][10]\nLinkRooms[9]"--"Rooms\nBillard Room\nKitchen\nLibrary\nDining Room\nStudy\nLounge\nBall Room\nObservatory\nHall";
+"GameBoard\nBoard[10][10]\nLinkRooms[9]"--"Pieces\nMustard:G4\nScarlet:B3\nPeacock:A7\nPlum:E5\nWhite:Billard\nGreen:Kitchen";
+
+"Users\nArray[6]"--"Playerx6\nturn:false\nhost:111.222.333.999\nname:Ray Rivers";
+
+
+Clientx6--ClientSocketx6;
+Clientx6--GUIx6;
+"Playerx6\nturn:false\nhost:111.222.333.999\nname:Ray Rivers"--"ClientSocketx6 ";
+Clientx6--"BoardModel\nBoard[10][10]\nRooms[9]";
+
+edge[style=dashed];
+
+"ClientSocketx6 "--"UpdateState\nPayload to be determined"
+ClientSocketx6--"UpdateState\nPayload to be determined";
+
+
+
+edge[style=dashed];
+
+ServerListener--ClientSocketx6;
+}
+

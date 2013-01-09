@@ -1,0 +1,34 @@
+graph bg{
+
+Server--ServerListener;
+Server--GameLogic;
+Server--"Users";
+
+GameLogic--"GameBoard";
+GameLogic--"Cards" ;
+GameLogic--"Dice";
+
+"GameBoard"--"Rooms";
+"GameBoard"--"Pieces";
+
+
+"Users"--"Playerx6";
+
+Clientx6--ClientSocketx6;
+
+Clientx6--GUIx6;
+
+"Playerx6"--"ClientSocketx6 ";
+
+Clientx6--"BoardModels";
+
+
+edge[style=dashed];
+
+
+"ClientSocketx6 "--"UpdateState"
+
+ServerListener--ClientSocketx6;
+
+ClientSocketx6--"UpdateState";
+}

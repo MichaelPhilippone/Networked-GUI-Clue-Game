@@ -1,0 +1,46 @@
+digraph dg{
+Client[shape=box];
+"ClientSocket "[shape=box];
+Server[shape=box];
+ClientSocket[shape=box];
+GameLogic[shape=box];
+Player[shape=box];
+GUI[shape=box];
+Pieces[shape=box];
+Dice[shape=box];
+GameBoard[shape=box];
+BoardModel[shape=box];
+
+Client->"ClientSocket "[color=blue,label="Send/receive info"];
+"ClientSocket "->Client[color=red];
+
+Player->ClientSocket[color=red];
+ClientSocket->Player[color=blue,label="Send/receive info"];
+
+Server->GameLogic[color=blue,label="Calculate end spaces"];
+GameLogic->Server[color=red];
+
+GameLogic->GameBoard[color=blue,label="Get locations\nLocations"];
+GameBoard->GameLogic[color=red];
+
+GameBoard->Pieces[color=blue,label="Move piece\nPiece moved"];
+Pieces->GameBoard[color=red,label=""];
+
+GameLogic->Dice[color=blue,label="Request roll\nRoll"];
+Dice->GameLogic[color=red,label=""];
+
+Server->Player[color=blue,label="Request move"];
+Player->Server[color=red,label="Move"];
+Player->Server[color=blue,label="Update board"];
+Server->Player[color=red,label="Board updated"];
+
+Client->GUI[color=blue,label="Select end location\nMove to selected"];
+GUI->Client[color=red,label=""];
+
+Client->BoardModel[color=blue,label="Update board\nBoard updated"];
+BoardModel->Client[color=red,label=""];
+
+edge[style=dashed];
+ClientSocket->"ClientSocket "[color=red];
+"ClientSocket "->ClientSocket[label="Network",color=blue];
+}

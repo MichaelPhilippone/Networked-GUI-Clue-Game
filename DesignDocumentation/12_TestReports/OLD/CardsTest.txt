@@ -1,0 +1,76 @@
+!THIS IS THE UNIT TEST FOR THE CARDS CLASS!
+-------------------------------------------
+This is a test to see if the cards are being shuffled, 
+being assigned an owner, and if that owner is able to 
+be gotten.
+Expected output is 3 different decks, and each owner owning 
+a different set of 3 cards each deck.
+
+Shuffle #1
+Card: Study   Owner: 0
+Card: Dining_Room   Owner: 0
+Card: Pipe   Owner: 0
+Card: Colonel_Mustard   Owner: 1
+Card: Candlestick   Owner: 1
+Card: Revolver   Owner: 1
+Card: Professor_Plum   Owner: 2
+Card: Wrench   Owner: 2
+Card: Mrs._Peacock   Owner: 2
+Card: Rope   Owner: 3
+Card: Miss_White   Owner: 3
+Card: Ballroom   Owner: 3
+Card: Lounge   Owner: 4
+Card: Library   Owner: 4
+Card: Observatory   Owner: 4
+Card: Hall   Owner: 5
+Card: Miss_Scarlet   Owner: 5
+Card: Billiard_Room   Owner: 5
+Card: Knife   Owner: 6
+Card: Kitchen   Owner: 6
+Card: Mr._Green   Owner: 6
+---------------------
+Shuffle #2
+Card: Ballroom   Owner: 0
+Card: Study   Owner: 2
+Card: Mr._Green   Owner: 6
+Card: Hall   Owner: 2
+Card: Candlestick   Owner: 1
+Card: Observatory   Owner: 3
+Card: Kitchen   Owner: 4
+Card: Colonel_Mustard   Owner: 3
+Card: Dining_Room   Owner: 5
+Card: Revolver   Owner: 4
+Card: Library   Owner: 6
+Card: Wrench   Owner: 0
+Card: Knife   Owner: 5
+Card: Professor_Plum   Owner: 3
+Card: Rope   Owner: 1
+Card: Mrs._Peacock   Owner: 1
+Card: Miss_Scarlet   Owner: 5
+Card: Lounge   Owner: 6
+Card: Pipe   Owner: 4
+Card: Billiard_Room   Owner: 2
+Card: Miss_White   Owner: 0
+---------------------
+Shuffle #3
+Card: Miss_White   Owner: 4
+Card: Mrs._Peacock   Owner: 1
+Card: Knife   Owner: 4
+Card: Miss_Scarlet   Owner: 6
+Card: Hall   Owner: 3
+Card: Dining_Room   Owner: 6
+Card: Ballroom   Owner: 3
+Card: Wrench   Owner: 2
+Card: Mr._Green   Owner: 0
+Card: Candlestick   Owner: 4
+Card: Professor_Plum   Owner: 0
+Card: Observatory   Owner: 2
+Card: Rope   Owner: 5
+Card: Pipe   Owner: 6
+Card: Study   Owner: 3
+Card: Billiard_Room   Owner: 1
+Card: Kitchen   Owner: 1
+Card: Lounge   Owner: 5
+Card: Revolver   Owner: 0
+Card: Library   Owner: 5
+Card: Colonel_Mustard   Owner: 2

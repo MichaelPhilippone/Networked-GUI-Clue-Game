@@ -1,0 +1,14 @@
+Server Startup
+5 Steps to test ClientSocket (test server):
+  1) Create a ServerSocket to accept connections
+  2) accept a connection from another ClientSocket instance
+  3) ServerSocket spawns ClientSocket based on incoming connection
+  4) Send and receive packets
+  5) Close the socket connection
+SERVER: Step 01 Success
+SERVER: step 2 is also good
+SERVER: step 3 as good as good
+SERVER: time for string passing
+SERVER: from client:  Ha ha, i got it to work
+SERVER: If both sockets displayed their receipts, Step 4 is Successful
+SERVER: the connection has been closed, Step 5 success

@@ -1,0 +1,120 @@
+PROGRAM STARTED AT: 12/ 17/2008 12:7:37  (mm/dd/yyy hh:mm:ss)
+
+
+
+!THIS IS THE UNIT TEST FOR THE PIECES CLASS!
+--------------------------------------------
+
+**These are the starting positions for each player's piece.**
+Miss_Scarlet's start location is:
+X: 7 Y: 24
+
+Professor_Plum's start location is:
+X: 23 Y: 19
+
+Mrs._Peacock's start location is:
+X: 23 Y: 5
+
+Mr._Green's start location is:
+X: 14 Y: 0
+
+Miss_White's start location is:
+X: 9 Y: 0
+
+Colonel_Mustard's start location is:
+X: 0 Y: 17
+
+------------------------
+**This is a copy of the game board to verify that the locations 
+of each piece is correct.**
+
+llllllbbbWllllGbbbllllll
+ltllllbgggllllgggblllltl
+llllllggllllllllggllllll
+llllllggllllllllggllllll
+llllllggllllllllggdlllll
+llllllgdlllllllldggggggT
+llllllggllllllllgggggggb
+ggggdgggllllllllggllllll
+bggggggggdggggdggdllllll
+lllllgggggggggggggllllll
+llllllllggggggggggllllll
+llllllllggbbbbbgggllllll
+lllllllldgbbbbbgggllllll
+llllllllggbbbbbgggggdgdb
+llllllllggbbbbbgggllllll
+llllllllggbbbbbgglllllll
+bgggggdgggbbbbbgdlllllll
+Ygggggggggbbbbbgglllllll
+bgggggdggggddgggggllllll
+lllllllggllllllggggggggP
+lllllllgglllllldgdgggggb
+lllllllggllllllgglllllll
+lllllllggllllllgglllllll
+ltlllllggllllllggllllltl
+lllllllRbllllllbglllllll 
+------------------------
+**This is a test of the isOccupied() method.**
+**Here we pass in different coordinates 
+			to see if that space is occupied or not.**
+
+Pass in Miss Scarlet's position of (7, 24) into isOccupied().
+Expected output is 1, because Miss Scarlet is player 1.
+Output: 1
+
+Pass in Professor Plum's position of (23, 19) into isOccupied().
+Expected output is 2, because Professor Plum is player 2.
+Output: 2
+
+Pass in Mrs. Peacock's position of (23, 5) into isOccupied().
+Expected output is 3, because Mrs. Peacock is player 3.
+Output: 3
+
+Pass in Mr. Green's position of (14, 0) into isOccupied().
+Expected output is 4, because Mr. Green is player 4.
+Output: 4
+
+Pass in Mrs. White's position of (9, 0) into isOccupied().
+Expected output is 5, because Mrs. White's is player 5.
+Output: 5
+
+Pass in Colonel Mustard's position of (0, 17) into isOccupied().
+Expected output is 6, because Colonel Mustard is player 6.
+Output: 6
+
+Pass in coordinates (4, 7) which are located in the kitchen.
+Expected out is 0 because no one is currently occupying that cell.
+Output: 0
+------------------------
+**This is a test of the relocate() method.**
+Professor Plum's position:
+X: 23
+Y: 19
+
+*Calling relocate() and passing in (4, 7)
+as Professor Plum's new coordinates.....*
+
+Professor Plum's new/current position:
+X: 4 Y: 7
+------------------------
+**This is a test to see if making a guess will 
+			relocate a player to the correct room.**
+Relocating Miss Scarlet to cell (0, 6) in Kitchen...
+X: 0 Y: 6
+
+Colonel Mustard's current position:
+X: 0 Y: 17
+
+Miss Scarlet implicates Colonel Mustard in a guess...
+GAMELOGIC: piece relocated, card owners found, 
+		beginning determine which to show
+GAMELOGIC: some one can disprove guess, either 5, 6, or 8
+GAMELOGIC: owner order is: 5 8 12
+GAMELOGIC: first person ordered will disprove them
+
+Colonel Mustard's expected position is (0,0), the first cell in Kitchen:
+X: 0 Y: 0
+
+Check if Colonel Mustard's new position is a room using
+the Rooms class' isAroom() method. Expected output is true.
+Output: true

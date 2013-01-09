@@ -1,0 +1,157 @@
+\part{Unit Testing Plan}
+
+\begin{description}
+
+	\item[Server (driver class)] ~
+		\begin{itemize}
+			\item ensure that server components are instantiated
+			\item ensure that game play is looping until someone wins or all lose
+			\begin{itemize}
+				\item make sure a move can be executed 
+				\item make sure a guess can be executed 
+				\item make sure an accusation can be executed 
+			\end{itemize}
+			\item catch a winning / losing condition
+		\end{itemize}
+	
+	\item[User Creation / Management] ~
+		\begin{description}
+			\item[Users / Players] ~
+				\begin{itemize}
+					\item creating 1 Player and creating 6 Players
+					\item create 7 Players and -1 Players
+					\item test communicating on a Player’s socket
+					\item assign the player names
+					\item verify the order of Player connections
+					\item verify the number of Players
+					\item player removal
+				\end{itemize}
+			\end{description}
+	
+	\item[Game Engine] ~
+		\begin{description}
+			\item[GameLogic] ~
+			\begin{itemize}
+				\item test guesses with all sorts of strings 
+					\begin{itemize}
+						\item ( proper input(s), null input(s), anomalous input(s) )
+					\end{itemize}
+				\item test accusations with all sorts of strings
+					\begin{itemize}
+						\item ( proper input(s), null input(s), anomalous input(s) )
+					\end{itemize}
+				\item test movement
+					\begin{itemize}
+						\item into room from hallway
+						\item out of a room into a hallway
+						\item from hallway space to hallway space
+						\item to room from tunnel
+						\item to room not using door
+					\end{itemize}
+				\item make sure that “nextPlayer” works
+			\end{itemize}
+			
+			\item[Pieces] ~
+			\begin{itemize}
+				\item relocating a player
+					\begin{itemize}
+						\item on a “move” (user has chosen the space)
+							\begin{itemize}
+								\item make sure chosen space is in the “list” of possible endpoints
+							\end{itemize}
+						\item on a “guess” (user has been implicated in a guess / accusation)
+					\end{itemize}
+				\item all players’ pieces end up in their appropriate start space
+					\begin{itemize}
+						\item print the board and verify the piece spaces
+					\end{itemize}
+				\item test if certain cell is occupied or not
+				\item test getting players’ positions
+			\end{itemize}
+			
+			\item[Cards] ~
+				\begin{itemize}
+					\item shuffle cards
+					\item deal the cards 
+					\item players have cards
+				\end{itemize}
+		
+			\item[GameBoard] ~
+				\begin{itemize}
+					\item print out the board and verify against images in repository
+						\begin{itemize}
+							\item REPO://src/clueServer/clueBoard.jpg
+							\item REPO://src/clueServer/clueBoard2.jpg
+						\end{itemize}
+					\item test if all tunnel cells are such and all non-tunnel cells are such 
+					\item test if all doorway cells are such and all non-doorway cells are such 
+					\item print out the serialized version of the board and verify the pieces and rooms
+					\item test that doorways of rooms correspond to image
+				\end{itemize}
+				
+			\item[Rooms] ~
+				\begin{itemize}
+					\item make sure rooms are rooms and nulls (non-spaces) are nulls and that these 
+						correspond to the `REPO://src/clueServer/clueBoard.jpg'
+				\end{itemize}
+		
+			\item[Dice] ~
+				\begin{itemize}
+					\item ensure that it returns random between 1 and 6 inclusive
+				\end{itemize}
+		\end{description}
+		
+	\item[Network] ~
+		\begin{description}
+			\item[ClientSocket] ~
+				\begin{itemize}
+					\item connect to another ClientSocket instance
+					\item read from the socket
+					\item write to the socket
+					\item test socket closure
+				\end{itemize}				
+				
+			\item[ServerListener] ~
+				\begin{itemize}
+					\item listen for users and receive incoming connection
+					\item create Players in Users class
+				\end{itemize}	
+		\end{description}
+		
+\end{description}
+
+
+\begin{description}
+
+	\item[BoardModel] ~
+		\begin{itemize}
+			\item make sure that a cell can be clicked
+				\begin{itemize}
+					\item either makes the message for the socket or does nothing
+				\end{itemize}
+			\item can be updated with a new version
+		\end{itemize}
+
+	\item[GUI] ~
+		\begin{itemize}
+			\item draw the board
+			\item display the cards for a user
+			\item get server connection info
+			\item guesses and accusations
+			\item moves
+			\item ignore extraneous clicks and input
+			\item close connections at game quit
+		\end{itemize}
+
+	\item [Client (driver class)] ~
+		\begin{itemize}
+			\item initiate connection with server
+				\begin{itemize}
+					\item call GUI for connection info
+				\end{itemize}
+			\item start user’s game
+			\item play through
+			\item handle game quit
+		\end{itemize}
+		
+\end{description}

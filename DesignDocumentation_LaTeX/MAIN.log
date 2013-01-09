@@ -1,0 +1,1211 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2007.2.23)  17 DEC 2008 15:25
+entering extended mode
+**MAIN.tex
+(./MAIN.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(/opt/local/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2004/02/16 v1.4f Standard LaTeX document class
+(/opt/local/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/opt/local/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+(/opt/local/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/color.cfg
+File: color.cfg 2005/02/03 v1.3 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 33.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 34.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 35.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 37.
+
+(./MAIN.aux (./InformalScenarios.aux) (./SupportedActivities.aux)
+(./ClassList.aux) (./UseCases.aux) (./FormalScenarios.aux)
+(./ClassCollaborationDiagrams.aux) (./ObjectDiagrams.aux)
+(./SequenceDiagrams.aux) (./ImplementationPlan.aux) (./TestPlan.aux)
+(./SocketStrings.aux) (./WhatWeLearned.aux) (./TestReports.aux) (./Minutes.aux)
+(./TeamContacts.aux))
+\openout1 = `MAIN.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+
+(/opt/local/share/texmf-dist/tex/context/base/supp-pdf.tex
+(/opt/local/share/texmf-dist/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count88
+\scratchcounter=\count89
+\scratchtoks=\toks17
+\scratchdimen=\dimen105
+\scratchskip=\skip52
+\scratchmuskip=\muskip10
+\scratchbox=\box26
+\scratchread=\read2
+\scratchwrite=\write3
+\zeropoint=\dimen106
+\onepoint=\dimen107
+\onebasepoint=\dimen108
+\minusone=\count90
+\thousandpoint=\dimen109
+\onerealpoint=\dimen110
+\emptytoks=\toks18
+\nextbox=\box27
+\nextdepth=\dimen111
+\everyline=\toks19
+\!!counta=\count91
+\!!countb=\count92
+\recursecounter=\count93
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen112
+\MPnumerator=\count97
+\everyMPtoPDFconversion=\toks20
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 44.
+ [1
+
+{/opt/local/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./MAIN.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.18335pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1])
+\tf@toc=\write4
+\openout4 = `MAIN.toc'.
+
+ [2]
+\openout2 = `InformalScenarios.aux'.
+
+ (./InformalScenarios.tex
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+)
+Underfull \hbox (badness 10000) in paragraph at lines 3--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--54
+
+ []
+
+[3
+
+] [4]
+\openout2 = `SupportedActivities.aux'.
+
+ (./SupportedActivities.tex
+Missing character: There is no Õ in font cmr12!
+ [5
+
+
+]
+Missing character: There is no Õ in font cmr12!
+) [6]
+\openout2 = `ClassList.aux'.
+
+ (./ClassList.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
+
+(/opt/local/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+Missing character: There is no Õ in font cmti12!
+ [7
+
+
+] [8]
+<../DesignDocumentation/03_ClassList/primaryClasses2.jpg, id=51, 919.435pt x 59
+4.22pt>
+File: ../DesignDocumentation/03_ClassList/primaryClasses2.jpg Graphic file (typ
+e jpg)
+ <use ../DesignDocumentation/03_ClassList/primaryClasses2.jpg>) [9 <../DesignDo
+cumentation/03_ClassList/primaryClasses2.jpg>]
+\openout2 = `UseCases.aux'.
+
+ (./UseCases.tex
+<../DesignDocumentation/04_UseCases/useCase_start.jpg, id=55, 321.2pt x 94.3525
+pt>
+File: ../DesignDocumentation/04_UseCases/useCase_start.jpg Graphic file (type j
+pg)
+ <use ../DesignDocumentation/04_UseCases/useCase_start.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 9--16
+
+ []
+
+[10
+
+
+ <../DesignDocumentation/04_UseCases/useCase_start.jpg>]
+<../DesignDocumentation/04_UseCases/useCase_move.jpg, id=59, 319.1925pt x 94.35
+25pt>
+File: ../DesignDocumentation/04_UseCases/useCase_move.jpg Graphic file (type jp
+g)
+ <use ../DesignDocumentation/04_UseCases/useCase_move.jpg>
+Missing character: There is no Õ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--43
+
+ []
+
+Missing character: There is no Õ in font cmr12!
+[11 <../DesignDocumentation/04_UseCases/useCase_move.jpg>]
+<../DesignDocumentation/04_UseCases/useCase_guess.jpg, id=63, 313.17pt x 101.37
+875pt>
+File: ../DesignDocumentation/04_UseCases/useCase_guess.jpg Graphic file (type j
+pg)
+ <use ../DesignDocumentation/04_UseCases/useCase_guess.jpg>
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+
+ []
+
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+[12 <../DesignDocumentation/04_UseCases/useCase_guess.jpg>]
+<../DesignDocumentation/04_UseCases/useCase_accusation.jpg, id=68, 326.21875pt 
+x 102.3825pt>
+File: ../DesignDocumentation/04_UseCases/useCase_accusation.jpg Graphic file (t
+ype jpg)
+ <use ../DesignDocumentation/04_UseCases/useCase_accusation.jpg>
+Missing character: There is no Õ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--95
+
+ []
+
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+) [13 <../DesignDocumentation/04_UseCases/useCase_accusation.jpg>]
+\openout2 = `FormalScenarios.aux'.
+
+
+(./FormalScenarios.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+
+Overfull \hbox (2.77231pt too wide) in paragraph at lines 3--9
+\OT1/cmr/m/n/12 The server-side com-puter is turned on and the server-side soft
+-ware is launched.
+ []
+
+
+Overfull \hbox (8.77364pt too wide) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/12 Meanwhile, on the client-side com-put-ers the client-side sof
+t-ware is launched.
+ []
+
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--22
+
+ []
+
+
+Overfull \hbox (2.77231pt too wide) in paragraph at lines 12--22
+\OT1/cmr/m/n/12 The server-side com-puter is turned on and the server-side soft
+-ware is launched.
+ []
+
+
+Overfull \hbox (8.77364pt too wide) in paragraph at lines 23--24
+[]\OT1/cmr/m/n/12 Meanwhile, on the client-side com-put-ers the client-side sof
+t-ware is launched.
+ []
+
+[14
+
+
+]
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+)
+Underfull \hbox (badness 10000) in paragraph at lines 25--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--58
+
+ []
+
+[15] [16] [17]
+\openout2 = `ClassCollaborationDiagrams.aux'.
+
+ (./ClassCollaborationDiagrams.tex
+<../DesignDocumentation/06_ClassCollaborationDiagrams/start_REV02.jpg, id=84, 1
+117.17375pt x 765.86125pt>
+File: ../DesignDocumentation/06_ClassCollaborationDiagrams/start_REV02.jpg Grap
+hic file (type jpg)
+
+<use ../DesignDocumentation/06_ClassCollaborationDiagrams/start_REV02.jpg>
+Overfull \hbox (43.62pt too wide) in paragraph at lines 8--9
+[][]  
+ []
+
+[18
+
+
+ <../DesignDocumentation/06_ClassCollaborationDiagrams/start_REV02.jpg>]
+<../DesignDocumentation/06_ClassCollaborationDiagrams/move_REV02.jpg, id=89, 63
+5.37375pt x 947.54pt>
+File: ../DesignDocumentation/06_ClassCollaborationDiagrams/move_REV02.jpg Graph
+ic file (type jpg)
+
+<use ../DesignDocumentation/06_ClassCollaborationDiagrams/move_REV02.jpg>
+[19 <../DesignDocumentation/06_ClassCollaborationDiagrams/move_REV02.jpg>]
+<../DesignDocumentation/06_ClassCollaborationDiagrams/guess_REV02.jpg, id=93, 9
+03.375pt x 765.86125pt>
+File: ../DesignDocumentation/06_ClassCollaborationDiagrams/guess_REV02.jpg Grap
+hic file (type jpg)
+
+<use ../DesignDocumentation/06_ClassCollaborationDiagrams/guess_REV02.jpg>
+Overfull \hbox (43.62pt too wide) in paragraph at lines 16--17
+[][]  
+ []
+
+[20 <../DesignDocumentation/06_ClassCollaborationDiagrams/guess_REV02.jpg>]
+<../DesignDocumentation/06_ClassCollaborationDiagrams/accuse_REV01.jpg, id=97, 
+466.74374pt x 765.86125pt>
+File: ../DesignDocumentation/06_ClassCollaborationDiagrams/accuse_REV01.jpg Gra
+phic file (type jpg)
+
+<use ../DesignDocumentation/06_ClassCollaborationDiagrams/accuse_REV01.jpg>)
+[21 <../DesignDocumentation/06_ClassCollaborationDiagrams/accuse_REV01.jpg>]
+\openout2 = `ObjectDiagrams.aux'.
+
+
+(./ObjectDiagrams.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 7.
+
+<../DesignDocumentation/07_ObjectDiagrams/modelShortLoad_REV02.jpg, id=101, 842
+.14626pt x 626.34pt>
+File: ../DesignDocumentation/07_ObjectDiagrams/modelShortLoad_REV02.jpg Graphic
+ file (type jpg)
+
+<use ../DesignDocumentation/07_ObjectDiagrams/modelShortLoad_REV02.jpg>
+[22
+
+
+ <../DesignDocumentation/07_ObjectDiagrams/modelShortLoad_REV02.jpg>]
+<../DesignDocumentation/07_ObjectDiagrams/modelShort_REV02.jpg, id=105, 1421.31
+pt x 928.46875pt>
+File: ../DesignDocumentation/07_ObjectDiagrams/modelShort_REV02.jpg Graphic fil
+e (type jpg)
+
+<use ../DesignDocumentation/07_ObjectDiagrams/modelShort_REV02.jpg> [23 <../Des
+ignDocumentation/07_ObjectDiagrams/modelShort_REV02.jpg>]
+<../DesignDocumentation/07_ObjectDiagrams/modelShortUse_REV02.jpg, id=109, 1542
+.76375pt x 928.46875pt>
+File: ../DesignDocumentation/07_ObjectDiagrams/modelShortUse_REV02.jpg Graphic 
+file (type jpg)
+
+<use ../DesignDocumentation/07_ObjectDiagrams/modelShortUse_REV02.jpg>)
+[24 <../DesignDocumentation/07_ObjectDiagrams/modelShortUse_REV02.jpg>]
+\openout2 = `SequenceDiagrams.aux'.
+
+
+(./SequenceDiagrams.tex [25
+
+
+]
+<../DesignDocumentation/08_SequenceDiagrams/startup_fail_fewClients.jpg, id=117
+, 1422.31375pt x 985.6825pt>
+File: ../DesignDocumentation/08_SequenceDiagrams/startup_fail_fewClients.jpg Gr
+aphic file (type jpg)
+
+<use ../DesignDocumentation/08_SequenceDiagrams/startup_fail_fewClients.jpg>
+Overfull \hbox (4.266pt too wide) in paragraph at lines 8--9
+[][]  
+ []
+
+[26 <../DesignDocumentation/08_SequenceDiagrams/startup_fail_fewClients.jpg>]
+<../DesignDocumentation/08_SequenceDiagrams/startup_success.jpg, id=121, 1618.0
+45pt x 1287.81125pt>
+File: ../DesignDocumentation/08_SequenceDiagrams/startup_success.jpg Graphic fi
+le (type jpg)
+
+<use ../DesignDocumentation/08_SequenceDiagrams/startup_success.jpg>
+Overfull \hbox (60.74069pt too wide) in paragraph at lines 13--14
+[][]  
+ []
+
+[27 <../DesignDocumentation/08_SequenceDiagrams/startup_success.jpg>]
+<../DesignDocumentation/08_SequenceDiagrams/Accuse.jpg, id=125, 1581.91pt x 766
+.865pt>
+File: ../DesignDocumentation/08_SequenceDiagrams/Accuse.jpg Graphic file (type 
+jpg)
+ <use ../DesignDocumentation/08_SequenceDiagrams/Accuse.jpg>
+Overfull \vbox (55.7527pt too high) has occurred while \output is active []
+
+
+[28 <../DesignDocumentation/08_SequenceDiagrams/Accuse.jpg>]
+<../DesignDocumentation/08_SequenceDiagrams/Guess.jpg, id=129, 2058.69125pt x 7
+15.67375pt>
+File: ../DesignDocumentation/08_SequenceDiagrams/Guess.jpg Graphic file (type j
+pg)
+ <use ../DesignDocumentation/08_SequenceDiagrams/Guess.jpg>
+Overfull \vbox (40.61205pt too high) has occurred while \output is active []
+
+
+[29 <../DesignDocumentation/08_SequenceDiagrams/Guess.jpg>]
+<../DesignDocumentation/08_SequenceDiagrams/GuessDisprove.jpg, id=133, 2049.657
+5pt x 1064.97874pt>
+File: ../DesignDocumentation/08_SequenceDiagrams/GuessDisprove.jpg Graphic file
+ (type jpg)
+
+<use ../DesignDocumentation/08_SequenceDiagrams/GuessDisprove.jpg>
+Overfull \vbox (43.18188pt too high) has occurred while \output is active []
+
+
+[30 <../DesignDocumentation/08_SequenceDiagrams/GuessDisprove.jpg>]
+<../DesignDocumentation/08_SequenceDiagrams/moveSequence.jpg, id=138, 763.1712p
+t x 589.7232pt>
+File: ../DesignDocumentation/08_SequenceDiagrams/moveSequence.jpg Graphic file 
+(type jpg)
+
+<use ../DesignDocumentation/08_SequenceDiagrams/moveSequence.jpg>
+Overfull \hbox (52.2913pt too wide) in paragraph at lines 33--34
+[][]  
+ []
+
+[31 <../DesignDocumentation/08_SequenceDiagrams/moveSequence.jpg>])
+\openout2 = `ImplementationPlan.aux'.
+
+
+(./ImplementationPlan.tex [32
+
+
+]
+Overfull \hbox (12.66821pt too wide) in paragraph at lines 64--65
+[]\OT1/cmr/m/n/12 from server-side de-vel-op-ment, use same socket class [](cod
+e: Todd)[] 
+ []
+
+Missing character: There is no Õ in font cmr12!
+
+Overfull \hbox (15.00572pt too wide) in paragraph at lines 73--74
+[]\OT1/cmr/m/n/12 Game play con-trols (Move, Guess, Ac-cuse, but-tons) [](code:
+ Erich)[] 
+ []
+
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no Õ in font cmr12!
+) [33]
+\openout2 = `TestPlan.aux'.
+
+ (./TestPlan.tex
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+ [34
+
+
+]
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+
+Overfull \hbox (56.52612pt too wide) in paragraph at lines 94--96
+\OT1/cmr/m/n/12 and that these cor-re-spond to the `REPO://src/clueServer/clueB
+oard.jpg' 
+ []
+
+[35]
+Missing character: There is no Õ in font cmr12!
+) [36]
+\openout2 = `SocketStrings.aux'.
+
+ (./SocketStrings.tex
+File: ../DesignDocumentation/SocketStringProtocol.txt  (verbatim)
+ [37
+
+
+]
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 11--11
+[]  \OT1/cmtt/m/n/12 "update <X1>,<Y1>,<COLOR1>,<true/false>;...;<Xn>,<Yn><COLO
+Rn>,<true/false>"[] 
+ []
+
+) [38]
+\openout2 = `WhatWeLearned.aux'.
+
+ (./WhatWeLearned.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[39
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+) [40]
+\openout2 = `TestReports.aux'.
+
+ (./TestReports.tex
+No file ../DesignDocumentation/12_TestReports/.
+File: ../DesignDocumentation/12_TestReports/CardsTest.txt  (verbatim)
+[41
+
+
+] [42] [43]
+File: ../DesignDocumentation/12_TestReports/DiceTest.txt  (verbatim)
+ [44]
+File: ../DesignDocumentation/12_TestReports/GameBoardTest.txt  (verbatim)
+ [45]
+File: ../DesignDocumentation/12_TestReports/GameLogicTest.txt  (verbatim)
+ [46] [47] [48]
+File: ../DesignDocumentation/12_TestReports/PiecesTest.txt  (verbatim)
+ [49] [50]
+Overfull \hbox (23.90552pt too wide) in paragraph at lines 34--34
+[]\OT1/cmtt/m/n/10.95 Colonel Mustard's expected position is (0,0), the first c
+ell in Kitchen:[] 
+ []
+
+[51]
+File: ../DesignDocumentation/12_TestReports/RoomsTest.txt  (verbatim)
+ [52]
+File: ../DesignDocumentation/12_TestReports/MessagePassingTest_Client.txt  (ver
+batim)
+
+Overfull \hbox (6.65945pt too wide) in paragraph at lines 44--44
+[]  \OT1/cmtt/m/n/10.95 1) Create a ClientSocket to connect with the testing se
+rver process[] 
+ []
+
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 44--44
+[]\OT1/cmtt/m/n/10.95 Expected output:                    move 13 12  -the move
+ method was called[] 
+ []
+
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 44--44
+[]\OT1/cmtt/m/n/10.95 CLIENT: from server  Actual output: move 13 12  -the move
+ method was called[] 
+ []
+
+
+Overfull \hbox (35.4029pt too wide) in paragraph at lines 44--44
+[]\OT1/cmtt/m/n/10.95 Actual output: accuse miss_white rope study  -the accuse 
+method was called[] 
+ []
+
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 44--44
+[]   \OT1/cmtt/m/n/10.95 Actual output: guess miss_scarlet revolver  -the guess
+ method was called[] 
+ []
+
+[53]
+Overfull \hbox (52.64896pt too wide) in paragraph at lines 44--44
+[]\OT1/cmtt/m/n/10.95 Expected output:                    endturn  -the nextPla
+yr method was called[] 
+ []
+
+
+Overfull \hbox (58.39764pt too wide) in paragraph at lines 44--44
+[]\OT1/cmtt/m/n/10.95 CLIENT: from server  Actual output: endturn  -the nextPla
+yer method was called[] 
+ []
+
+[54]
+File: ../DesignDocumentation/12_TestReports/MessagePassingTest_Server.txt  (ver
+batim)
+
+Overfull \hbox (6.65945pt too wide) in paragraph at lines 49--49
+[]  \OT1/cmtt/m/n/10.95 1) Create a ClientSocket to connect with the testing cl
+ient process[] 
+ []
+
+[55]
+File: ../DesignDocumentation/12_TestReports/ClientMessagePassingTest_Client.txt
+  (verbatim)
+ [56]
+Overfull \hbox (2.21634pt too wide) in paragraph at lines 58--58
+[] \OT1/cmr/bx/n/14.4 Test mes-sage proper mes-sage re-ceive-ing in Client
+ []
+
+File: ../DesignDocumentation/12_TestReports/ClientMessagePassingTest_Server.txt
+  (verbatim)
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 59--59
+[]\OT1/cmtt/m/n/10.95 Expected output:                      -the systemShutdown
+ method was called[] 
+ []
+
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 59--59
+[]\OT1/cmtt/m/n/10.95 SERVER: from client  Actual output:   -the systemShutdown
+ method was called[] 
+ []
+
+
+Overfull \hbox (92.88977pt too wide) in paragraph at lines 59--59
+[]                  \OT1/cmtt/m/n/10.95 7,0,blue,true;7,1,grey,true  - parseUpd
+ateString method was called[] 
+ []
+
+
+Overfull \hbox (92.88977pt too wide) in paragraph at lines 59--59
+[]   \OT1/cmtt/m/n/10.95 Actual output: 7,0,blue,true;7,1,grey,true  - parseUpd
+ateString method was called[] 
+ []
+
+
+Overfull \hbox (12.40814pt too wide) in paragraph at lines 59--59
+[]                  \OT1/cmtt/m/n/10.95 the test is working well  - inform meth
+od was called[] 
+ []
+
+
+Overfull \hbox (12.40814pt too wide) in paragraph at lines 59--59
+[]   \OT1/cmtt/m/n/10.95 Actual output: the test is working well  - inform meth
+od was called[] 
+ []
+
+
+Overfull \hbox (29.6542pt too wide) in paragraph at lines 59--59
+[]\OT1/cmtt/m/n/10.95 Expected output:                    7;6  -the haveCards m
+ethod was called[] 
+ []
+
+
+Overfull \hbox (29.6542pt too wide) in paragraph at lines 59--59
+[]\OT1/cmtt/m/n/10.95 SERVER: from client  Actual output: 7;6  -the haveCards m
+ethod was called[] 
+ []
+
+[57]
+Overfull \hbox (12.40814pt too wide) in paragraph at lines 59--59
+[]\OT1/cmtt/m/n/10.95 Expected output:                    7;6  -the inform meth
+od was called[] 
+ []
+
+
+Overfull \hbox (12.40814pt too wide) in paragraph at lines 59--59
+[]\OT1/cmtt/m/n/10.95 SERVER: from client  Actual output: 7;6  -the inform meth
+od was called[] 
+ []
+
+[58]
+File: ../DesignDocumentation/12_TestReports/NetTestClient.txt  (verbatim)
+
+Overfull \hbox (6.65945pt too wide) in paragraph at lines 64--64
+[]  \OT1/cmtt/m/n/10.95 1) Create a ClientSocket to connect with the testing se
+rver process[] 
+ []
+
+
+Overfull \hbox (6.65945pt too wide) in paragraph at lines 64--64
+[]\OT1/cmtt/m/n/10.95 CLIENT: sent info to server, if printed from server: Step
+ 02 success.[] 
+ []
+
+[59]
+File: ../DesignDocumentation/12_TestReports/NetTestServer.txt  (verbatim)
+
+Overfull \hbox (12.40814pt too wide) in paragraph at lines 69--69
+[]\OT1/cmtt/m/n/10.95 SERVER: If both sockets displayed their receipts, Step 4 
+is Successful[] 
+ []
+
+[60]
+File: ../DesignDocumentation/12_TestReports/UserManagementComponentsTestClient.
+txt  (verbatim)
+
+Overfull \hbox (6.65945pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 Testing the User Management Components. ( a threaded test
+ing driver )[] 
+ []
+
+
+Overfull \hbox (6.65945pt too wide) in paragraph at lines 74--74
+[]  \OT1/cmtt/m/n/10.95 1) First, test the connection-handling abilities of the
+ Users class[] 
+ []
+
+
+Overfull \hbox (46.90027pt too wide) in paragraph at lines 74--74
+[]  \OT1/cmtt/m/n/10.95 -> spawn threads (specifically, 6) to connect to the li
+stening Users class[] 
+ []
+
+
+Overfull \hbox (6.65945pt too wide) in paragraph at lines 74--74
+[]  \OT1/cmtt/m/n/10.95 -> This should result in those threads labeled with Ann
+otherPlayer#[] 
+ []
+
+
+Overfull \hbox (46.90027pt too wide) in paragraph at lines 74--74
+[]          \OT1/cmtt/m/n/10.95 (This testing driver will automatically shutdow
+n after 2 minutes.)[] 
+ []
+
+
+Overfull \hbox (18.15683pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_AnotherPlayer_0: Starting test-client Thread Anoth
+erPlayer_0 ...[] 
+ []
+
+
+Overfull \hbox (18.15683pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_AnotherPlayer_1: Starting test-client Thread Anoth
+erPlayer_1 ...[] 
+ []
+
+
+Overfull \hbox (18.15683pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_AnotherPlayer_2: Starting test-client Thread Anoth
+erPlayer_2 ...[] 
+ []
+
+
+Overfull \hbox (18.15683pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_AnotherPlayer_3: Starting test-client Thread Anoth
+erPlayer_3 ...[] 
+ []
+
+
+Overfull \hbox (18.15683pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_AnotherPlayer_4: Starting test-client Thread Anoth
+erPlayer_4 ...[] 
+ []
+
+
+Overfull \hbox (18.15683pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_AnotherPlayer_5: Starting test-client Thread Anoth
+erPlayer_5 ...[] 
+ []
+
+
+Overfull \hbox (18.15683pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_AnotherPlayer_6: Starting test-client Thread Anoth
+erPlayer_6 ...[] 
+ []
+
+
+Overfull \hbox (29.6542pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_Player_5:  Reading from server: This is an update 
+for all clients![] 
+ []
+
+
+Overfull \hbox (29.6542pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_Player_1:  Reading from server: This is an update 
+for all clients![] 
+ []
+
+
+Overfull \hbox (29.6542pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_Player_2:  Reading from server: This is an update 
+for all clients![] 
+ []
+
+
+Overfull \hbox (29.6542pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_Player_3:  Reading from server: This is an update 
+for all clients![] 
+ []
+
+
+Overfull \hbox (29.6542pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_Player_4:  Reading from server: This is an update 
+for all clients![] 
+ []
+
+
+Overfull \hbox (29.6542pt too wide) in paragraph at lines 74--74
+[]\OT1/cmtt/m/n/10.95 FROM T_Player_0:  Reading from server: This is an update 
+for all clients![] 
+ []
+
+
+Overfull \hbox (35.4029pt too wide) in paragraph at lines 74--74
+[]         \OT1/cmtt/m/n/10.95 Program started at 20492230, ended at 20492232 r
+an for 2 minutes.[] 
+ []
+
+[61]
+File: ../DesignDocumentation/12_TestReports/UserManagementsComponentsTest.txt  
+(verbatim)
+
+Overfull \hbox (58.39764pt too wide) in paragraph at lines 79--79
+[]  \OT1/cmtt/m/n/10.95 2) Once the Users object is created, listen for incomin
+g connection requests[] 
+ []
+
+[62] [63]
+File: ../DesignDocumentation/12_TestReports/AllClientsNum_Test.txt  (verbatim)
+
+Overfull \hbox (18.15683pt too wide) in paragraph at lines 90--90
+[]   \OT1/cmtt/m/n/10.95 can connect to a running server instance and properly 
+set themselves[] 
+ []
+
+
+Overfull \hbox (6.65945pt too wide) in paragraph at lines 90--90
+[]      \OT1/cmtt/m/n/10.95 (receiveing information about the player's assigned
+ game piece)[] 
+ []
+
+
+Overfull \hbox (35.4029pt too wide) in paragraph at lines 90--90
+[]  \OT1/cmtt/m/n/10.95 - Obtaining and displaying the hand of 3 cards the play
+er has been dealt[] 
+ []
+
+
+Overfull \hbox (64.14633pt too wide) in paragraph at lines 90--90
+[]  \OT1/cmtt/m/n/10.95 - The first player's board should light up with the app
+ropriate ending spaces[] 
+ []
+
+
+Overfull \hbox (23.90552pt too wide) in paragraph at lines 90--90
+[]    \OT1/cmtt/m/n/10.95 file for more information on connection and communica
+tion conditions[] 
+ []
+
+
+Overfull \hbox (35.4029pt too wide) in paragraph at lines 90--90
+[]\OT1/cmtt/m/n/10.95 *********************************************************
+*****************[] 
+ []
+
+
+Overfull \hbox (35.4029pt too wide) in paragraph at lines 90--90
+[]\OT1/cmtt/m/n/10.95 *********************************************************
+*****************[] 
+ []
+
+[64]
+Overfull \hbox (52.64896pt too wide) in paragraph at lines 90--90
+[]\OT1/cmtt/m/n/10.95 CLIENT(mphilip1_5): inform: You have been assigned the pi
+ece"Colonel_Mustard"[] 
+ []
+
+
+Overfull \hbox (18.15683pt too wide) in paragraph at lines 90--90
+[]\OT1/cmtt/m/n/10.95 CLIENT(mphilip1_3): inform: You have been assigned the pi
+ece"Mr._Green"[] 
+ []
+
+
+Overfull \hbox (35.4029pt too wide) in paragraph at lines 90--90
+[]\OT1/cmtt/m/n/10.95 CLIENT(mphilip1_0): inform: You have been assigned the pi
+ece"Miss_Scarlet"[] 
+ []
+
+
+Overfull \hbox (46.90027pt too wide) in paragraph at lines 90--90
+[]\OT1/cmtt/m/n/10.95 CLIENT(mphilip1_1): inform: You have been assigned the pi
+ece"Professor_Plum"[] 
+ []
+
+
+Overfull \hbox (35.4029pt too wide) in paragraph at lines 90--90
+[]\OT1/cmtt/m/n/10.95 CLIENT(mphilip1_2): inform: You have been assigned the pi
+ece"Mrs._Peacock"[] 
+ []
+
+
+Overfull \hbox (23.90552pt too wide) in paragraph at lines 90--90
+[]\OT1/cmtt/m/n/10.95 CLIENT(mphilip1_4): inform: You have been assigned the pi
+ece"Miss_White"[] 
+ []
+
+
+Overfull \hbox (64.14633pt too wide) in paragraph at lines 90--90
+[]\OT1/cmtt/m/n/10.95 CLIENTTEST: started at 1229537327711, ended at 1229537447
+717 ran for 2 minutes.[] 
+ []
+
+[65]
+File: ../DesignDocumentation/12_TestReports/Clue_LOG--SAMPLE.txt  (verbatim)
+
+Overfull \hbox (52.64896pt too wide) in paragraph at lines 95--95
+[]\OT1/cmtt/m/n/10.95 SERVER: All messages will be prefaced with the originatin
+g component in caps.[] 
+ []
+
+
+Overfull \hbox (6.65945pt too wide) in paragraph at lines 95--95
+[]\OT1/cmtt/m/n/10.95 SERVER: program started at 12/ 17/2008 13:7:48  (mm/dd/yy
+y hh:mm:ss).[] 
+ []
+
+[66]
+Overfull \hbox (0.91077pt too wide) in paragraph at lines 95--95
+[]\OT1/cmtt/m/n/10.95 SERVER: made it to the end of server's createservercompon
+ents method[] 
+ []
+
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 95--95
+[]\OT1/cmtt/m/n/10.95 SERVER: true (result of inform piece name command sent to
+ user: mphilip1_0)[] 
+ []
+
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 95--95
+[]\OT1/cmtt/m/n/10.95 SERVER: true (result of inform piece name command sent to
+ user: mphilip1_1)[] 
+ []
+
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 95--95
+[]\OT1/cmtt/m/n/10.95 SERVER: true (result of inform piece name command sent to
+ user: mphilip1_2)[] 
+ []
+
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 95--95
+[]\OT1/cmtt/m/n/10.95 SERVER: true (result of inform piece name command sent to
+ user: mphilip1_3)[] 
+ []
+
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 95--95
+[]\OT1/cmtt/m/n/10.95 SERVER: true (result of inform piece name command sent to
+ user: mphilip1_4)[] 
+ []
+
+
+Overfull \hbox (41.15158pt too wide) in paragraph at lines 95--95
+[]\OT1/cmtt/m/n/10.95 SERVER: true (result of inform piece name command sent to
+ user: mphilip1_5)[] 
+ []
+
+[67]
+Overfull \hbox (58.39764pt too wide) in paragraph at lines 95--95
+[]\OT1/cmtt/m/n/10.95 SERVER: received "testingshutdown" from player: mphilip1_
+0 (while loop bottom)[] 
+ []
+
+) [68]
+\openout2 = `Minutes.aux'.
+
+ (./Minutes.tex
+<../DesignDocumentation/Minutes/Minutes_01.jpg, id=268, 426.59375pt x 351.3125p
+t>
+File: ../DesignDocumentation/Minutes/Minutes_01.jpg Graphic file (type jpg)
+ <use ../DesignDocumentation/Minutes/Minutes_01.jpg>
+Overfull \hbox (36.5927pt too wide) in paragraph at lines 8--9
+[]  
+ []
+
+[69
+
+
+ <../DesignDocumentation/Minutes/Minutes_01.jpg>]
+<../DesignDocumentation/Minutes/Minutes_02.jpg, id=272, 511.9125pt x 307.1475pt
+>
+File: ../DesignDocumentation/Minutes/Minutes_02.jpg Graphic file (type jpg)
+ <use ../DesignDocumentation/Minutes/Minutes_02.jpg> [70 <../DesignDocumentatio
+n/Minutes/Minutes_02.jpg>]
+<../DesignDocumentation/Minutes/Minutes_03.jpg, id=276, 512.91624pt x 313.17pt>
+File: ../DesignDocumentation/Minutes/Minutes_03.jpg Graphic file (type jpg)
+<use ../DesignDocumentation/Minutes/Minutes_03.jpg> [71 <../DesignDocumentation
+/Minutes/Minutes_03.jpg>]
+<../DesignDocumentation/Minutes/Minutes_04.jpg, id=280, 498.86375pt x 373.395pt
+>
+File: ../DesignDocumentation/Minutes/Minutes_04.jpg Graphic file (type jpg)
+ <use ../DesignDocumentation/Minutes/Minutes_04.jpg> [72 <../DesignDocumentatio
+n/Minutes/Minutes_04.jpg>]
+<../DesignDocumentation/Minutes/Minutes_05.jpg, id=285, 513.92pt x 321.2pt>
+File: ../DesignDocumentation/Minutes/Minutes_05.jpg Graphic file (type jpg)
+
+<use ../DesignDocumentation/Minutes/Minutes_05.jpg> [73 <../DesignDocumentation
+/Minutes/Minutes_05.jpg>]
+<../DesignDocumentation/Minutes/Minutes_06.jpg, id=289, 519.9425pt x 377.41pt>
+File: ../DesignDocumentation/Minutes/Minutes_06.jpg Graphic file (type jpg)
+
+<use ../DesignDocumentation/Minutes/Minutes_06.jpg> [74 <../DesignDocumentation
+/Minutes/Minutes_06.jpg>]
+<../DesignDocumentation/Minutes/Minutes_07.jpg, id=293, 540.0175pt x 368.37625p
+t>
+File: ../DesignDocumentation/Minutes/Minutes_07.jpg Graphic file (type jpg)
+ <use ../DesignDocumentation/Minutes/Minutes_07.jpg>
+Overfull \hbox (15.01213pt too wide) in paragraph at lines 20--21
+[][]  
+ []
+
+[75 <../DesignDocumentation/Minutes/Minutes_07.jpg>]
+<../DesignDocumentation/Minutes/Minutes_08.jpg, id=297, 485.815pt x 320.19624pt
+>
+File: ../DesignDocumentation/Minutes/Minutes_08.jpg Graphic file (type jpg)
+ <use ../DesignDocumentation/Minutes/Minutes_08.jpg>
+Overfull \hbox (95.81381pt too wide) in paragraph at lines 22--23
+[][]  
+ []
+
+[76 <../DesignDocumentation/Minutes/Minutes_08.jpg>]
+<../DesignDocumentation/Minutes/Minutes_09.jpg, id=301, 483.8075pt x 424.58624p
+t>
+File: ../DesignDocumentation/Minutes/Minutes_09.jpg Graphic file (type jpg)
+ <use ../DesignDocumentation/Minutes/Minutes_09.jpg> [77 <../DesignDocumentatio
+n/Minutes/Minutes_09.jpg>]
+<../DesignDocumentation/Minutes/Minutes_10.jpg, id=305, 458.71375pt x 363.3575p
+t>
+File: ../DesignDocumentation/Minutes/Minutes_10.jpg Graphic file (type jpg)
+ <use ../DesignDocumentation/Minutes/Minutes_10.jpg>
+Overfull \hbox (68.71263pt too wide) in paragraph at lines 26--27
+[][]  
+ []
+
+[78 <../DesignDocumentation/Minutes/Minutes_10.jpg>]
+<../DesignDocumentation/Minutes/Minutes_11.jpg, id=310, 441.65pt x 282.05376pt>
+File: ../DesignDocumentation/Minutes/Minutes_11.jpg Graphic file (type jpg)
+<use ../DesignDocumentation/Minutes/Minutes_11.jpg>
+Overfull \hbox (51.64891pt too wide) in paragraph at lines 28--29
+[][]  
+ []
+
+[79 <../DesignDocumentation/Minutes/Minutes_11.jpg>]
+<../DesignDocumentation/Minutes/Minutes_12.jpg, id=314, 366.36874pt x 243.91125
+pt>
+File: ../DesignDocumentation/Minutes/Minutes_12.jpg Graphic file (type jpg)
+ <use ../DesignDocumentation/Minutes/Minutes_12.jpg> [80 <../DesignDocumentatio
+n/Minutes/Minutes_12.jpg>]
+<../DesignDocumentation/Minutes/Minutes_13.jpg, id=318, 493.845pt x 454.69875pt
+>
+File: ../DesignDocumentation/Minutes/Minutes_13.jpg Graphic file (type jpg)
+ <use ../DesignDocumentation/Minutes/Minutes_13.jpg>) [81 <../DesignDocumentati
+on/Minutes/Minutes_13.jpg>]
+\openout2 = `TeamContacts.aux'.
+
+ (./TeamContacts.tex) [82
+
+
+] (./MAIN.aux
+(./InformalScenarios.aux) (./SupportedActivities.aux) (./ClassList.aux)
+(./UseCases.aux) (./FormalScenarios.aux) (./ClassCollaborationDiagrams.aux)
+(./ObjectDiagrams.aux) (./SequenceDiagrams.aux) (./ImplementationPlan.aux)
+(./TestPlan.aux) (./SocketStrings.aux) (./WhatWeLearned.aux) (./TestReports.aux
+) (./Minutes.aux) (./TeamContacts.aux)) ) 
+Here is how much of TeX's memory you used:
+ 1459 strings out of 94500
+ 25790 string characters out of 1174973
+ 70912 words of memory out of 1000000
+ 4493 multiletter control sequences out of 10000+50000
+ 11995 words of font info for 42 fonts, out of 500000 for 2000
+ 580 hyphenation exceptions out of 1000
+ 33i,15n,43p,1172b,464s stack positions out of 1500i,500n,5000p,200000b,5000s
+PDF statistics:
+ 324 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 156 words of extra memory for PDF output out of 65536
+</opt/local/share/texmf-dist/fonts/typ
+e1/bluesky/cm/cmtt10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cm
+tt12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbxti10.pfb></opt
+/local/share/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb></opt/local/share/tex
+mf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/share/texmf-dist/fonts/ty
+pe1/bluesky/cm/cmr6.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr
+10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr12.pfb></opt/loca
+l/share/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/share/texmf-di
+st/fonts/type1/bluesky/cm/cmr17.pfb>
+Output written on MAIN.pdf (83 pages, 2241055 bytes).

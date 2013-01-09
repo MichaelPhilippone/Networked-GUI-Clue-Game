@@ -1,0 +1,148 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf480
+{\fonttbl\f0\froman\fcharset77 TimesNewRomanBdMS;\f1\froman\fcharset77 TimesNewRomanMS;}
+{\colortbl;\red255\green255\blue255;}
+{\info
+{\title }
+{\subject }
+{\doccomm }
+{\author }
+{\*\company }
+{\*\copyright }
+{\keywords cursorLocation=1082}}\margl1440\margr1440\vieww15520\viewh14620\viewkind1\viewscale100
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\b\fs32 \cf0 INFORMAL SCENARIOS\
+\pard\pardeftab720\ql\qnatural
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\ql\qnatural
+
+\f0\b \cf0 Scenario name
+\f1\b0 : Preload\
+
+\f0\b Current State
+\f1\b0 : Idle server, program has not been launched, idle players, programs not launched\
+
+\f0\b Scenario
+\f1\b0 : The program on the server is started, which begins the game.  Players can launch their programs and connect to the server.\
+
+\f0\b Next Scenario
+\f1\b0 : Start Game\
+\
+\
+
+\f0\b Scenario name
+\f1\b0 : Start game\
+
+\f0\b Current State
+\f1\b0 : Players are connected, game play has yet to start.\
+
+\f0\b Scenario:
+\f1\b0  The board is drawn and cards are shuffled to all six players. Three cards are placed at the center of the board. Miss. Scarlet (first player to join) goes first then game play moves in the order in which the other 5 players connected.\
+
+\f0\b Next Scenario
+\f1\b0 : Standard turn\
+\
+\
+
+\f0\b Scenario name
+\f1\b0 : Standard turn\
+
+\f0\b Current State
+\f1\b0 : Player 6\'d5s turn to play\
+
+\f0\b Scenario
+\f1\b0 : Player 6 rolls a 3 and moves the piece 3 spaces along the board in the shape of an \'d2L\'d3 and lands on a different spot on the board. Turn ends for player 6, next player\'d5s turn.\
+
+\f0\b Next
+\f1\b0  
+\f0\b Scenario
+\f1\b0 : Standard turn, enter room, correct guess, incorrect guess, move by secret passageway, accuse, game end.\
+\
+\
+
+\f0\b Scenario name
+\f1\b0 : move by secrete passageway\
+
+\f0\b Current State
+\f1\b0 :  Player 5 is in a room\
+
+\f0\b Details
+\f1\b0 :  Player 5 uses the secret passageway in the room and advances to the connecting room across the board. Player may guess or end turn.\
+
+\f0\b Next Scenario
+\f1\b0 : correct guess, incorrect guess, accuse, standard turn, game end.\
+\
+\
+
+\f0\b Scenario name
+\f1\b0 : Enter room\
+
+\f0\b Current State
+\f1\b0 :  Player 2 rolls a 3\
+
+\f0\b Details
+\f1\b0 :  Player 2 advances 2 spaces, into a room and forfeits the last move. Player 2 may guess or end turn.\
+
+\f0\b Next Scenario
+\f1\b0 : correct guess, incorrect guess, accuse, move by secrete passageway, game end, standard turn.\
+\
+\
+
+\f0\b Scenario name
+\f1\b0 : Incorrect Guess\
+
+\f0\b Current State
+\f1\b0 :  Player 3 just entered a room\
+
+\f0\b Scenario
+\f1\b0 :  Player 3 is in a room and guesses that Mr. Green committed the murder with a wrench in the room currently located at. Mr. Green is moved from his location to the room player 3 is currently situated. Player 1 shows player 3 the wrench card and player 3\'d5s guess is disproved. Player 3 ends turn.\
+
+\f0\b Next Scenario
+\f1\b0 : standard turn, correct guess, incorrect guess, move by secrete passageway, accuse, game end. \
+\
+\
+\
+
+\f0\b Scenario name
+\f1\b0 : Correct Guess\
+
+\f0\b Current State
+\f1\b0 :  Player 3 just entered a room\
+
+\f0\b Scenario
+\f1\b0 :  Player 3 is in a room and guesses that Miss Scarlet committed the murder with a wrench in the room currently located at. Miss Scarlet is moved from her location to the room player 3 is currently situated. No player had the cards mentioned in player 3\'d5s guess. Player 3 ends turn.\
+
+\f0\b Next Scenario
+\f1\b0 : standard turn, correct guess, incorrect guess, move by secrete passageway, accuse, game end. \
+
+\f0\b \
+\
+Scenario name
+\f1\b0 : Accuse\
+
+\f0\b Current State
+\f1\b0 : Player 4\'d5s turn\
+
+\f0\b Details
+\f1\b0 :  Player 4 makes an accusation. Player 4 accuses Mrs. White of committing the murder with a knife in the bathroom. Player 4 looks at the center cards and does not find the knife card. Player 4 cannot move or guess or accuse again. Player remains only to disprove other guesses. Next player\'d5s turn. \
+
+\f0\b Next Scenario
+\f1\b0 : standard turn, correct guess, incorrect guess, move by secrete passageway, accuse, game end. \
+\
+
+\f0\b \
+\
+Scenario name
+\f1\b0 : Game end\
+
+\f0\b Current State
+\f1\b0 : Player 2\'d5s turn\
+
+\f0\b Details
+\f1\b0 :  Player 2 makes an accusation. Player 2 accuses Mrs. White of committing the murder with a wrench in the kitchen. Player 2 looks at the center cards and finds the exact same cards just mentioned. The cards are revealed to all players and the game is over, player 4 wins.  \
+
+\f0\b Next Scenario
+\f1\b0 :\
+}

@@ -1,0 +1,48 @@
+graph dg{
+Server[shape=box];
+GameLogic[shape=box];
+ServerListener[shape=box];
+GameLogic[shape=box];
+Users[shape=box];
+GameBoard[shape=box];
+Cards[shape=box];
+Dice[shape=box];
+Rooms[shape=box];
+Pieces[shape=box];
+Player[shape=box];
+Client[shape=box];
+"ClientSocket "[shape=box];
+GUI[shape=box];
+ClientSocket[shape=box];
+BoardModel[shape=box];
+UpdateState[shape=box];
+
+
+Server--ServerListener[label="Subclass\n1:1",arrowtail=odiamond];
+Server--GameLogic[label="Subclass\n1:1",arrowtail=odiamond];
+Server--Users[label="Subclass\n1:1",arrowtail=odiamond];
+
+GameLogic--GameBoard[label="Subclass\n1:1",arrowtail=odiamond];
+GameLogic--Cards[label="Support class\n1:1",arrowtail=odiamond];
+GameLogic--Dice[label="Support class\n1:1",arrowtail=odiamond];
+
+GameBoard--Rooms[label="Support class\n1:1",arrowtail=odiamond];
+GameBoard--Pieces[label="Support class\n1:1",arrowtail=odiamond];
+
+
+Users--Player[label="Subclass\n1:6",arrowtail=odiamond];
+
+Client--"ClientSocket "[label="Subclass\n1:1",arrowtail=odiamond];
+Client--GUI[label="Subclass\n1:1",arrowtail=odiamond];
+Client--BoardModel[label="Subclass\n1:1",arrowtail=odiamond];
+
+Player--ClientSocket[label="Subclass\n1:1",arrowtail=odiamond];
+
+edge[style=dashed];
+
+ClientSocket--UpdateState[label="Usable Network"];
+
+ServerListener--"ClientSocket "[label="Inital Network"];
+
+"ClientSocket "--UpdateState[label="TCP Connection via Sockets"];
+}

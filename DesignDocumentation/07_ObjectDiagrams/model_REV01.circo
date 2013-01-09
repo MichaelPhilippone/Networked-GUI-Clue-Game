@@ -1,0 +1,80 @@
+graph bg{
+
+Server--ServerListener;
+Server--GameLogic;
+Server--"Users\nArray[6]";
+
+GameLogic--"GameBoard\nBoard[10][10]\nLinkRooms[9]";
+GameLogic--"Cards\nPlayer1:Hall,Dining Room, Knife\nPlayer2:White,Kitchen,Candlestick\nPlayer3:Mustard,Billard Room,Observatory\nPlayer4:Green,Library,Rope\nPlayer5:Peacock,Study,Pipe\nPlayer6:Lounge,Scarlet,Revolver\nCorrect:Plum,Ball Room,Wrench" ;
+GameLogic--"Dice\nRandom:1-6";
+
+"GameBoard\nBoard[10][10]\nLinkRooms[9]"--"Rooms\nBillard Room\nKitchen\nLibrary\nDining Room\nStudy\nLounge\nBall Room\nObservatory\nHall";
+"GameBoard\nBoard[10][10]\nLinkRooms[9]"--"Pieces\nMustard:G4\nScarlet:B3\nPeacock:A7\nPlum:E5\nWhite:Billard\nGreen:Kitchen";
+
+
+"Users\nArray[6]"--"Player1\nturn:false\nhost:111.222.333.999\nname:Ray Rivers";
+"Users\nArray[6]"--"Player2\nturn:false\nhost:131.313.131.313\nname:San Juan";
+"Users\nArray[6]"--"Player3\nturn:true\nhost:963.258.741.020\nname:Alison Edo";
+"Users\nArray[6]"--"Player4\nturn:false\nhost:745.621.54.85\nname:Megan Megan";
+"Users\nArray[6]"--"Player5\nturn:false\nhost:485.652.21.333\nname:Hector Wannabe";
+"Users\nArray[6]"--"Player6\nTurn:false\nhost:125.426.12.35\nname:Agent Smith";
+
+
+Client1--ClientSocket1;
+Client2--ClientSocket2;
+Client3--ClientSocket3;
+Client4--ClientSocket4;
+Client5--ClientSocket5;
+Client6--ClientSocket6;
+
+
+Client1--GUI1;
+Client2--GUI2;
+Client3--GUI3;
+Client4--GUI4;
+Client5--GUI5;
+Client6--GUI6;
+
+
+"Player1\nturn:false\nhost:111.222.333.999\nname:Ray Rivers"--Client1Socket;
+"Player2\nturn:false\nhost:131.313.131.313\nname:San Juan"--Client2Socket;
+"Player3\nturn:true\nhost:963.258.741.020\nname:Alison Edo"--Client3Socket;
+"Player4\nturn:false\nhost:745.621.54.85\nname:Megan Megan"--Client4Socket;
+"Player5\nturn:false\nhost:485.652.21.333\nname:Hector Wannabe"--Client5Socket;
+"Player6\nTurn:false\nhost:125.426.12.35\nname:Agent Smith"--Client6Socket;
+
+
+Client1--"BoardModel1\nBoard[10][10]\nRooms[9]";
+Client2--"BoardModel2\nBoard[10][10]\nRooms[9]";
+Client3--"BoardModel3\nBoard[10][10]\nRooms[9]";
+Client4--"BoardModel4\nBoard[10][10]\nRooms[9]";
+Client5--"BoardModel5\nBoard[10][10]\nRooms[9]";
+Client6--"BoardModel6\nBoard[10][10]\nRooms[9]";
+
+
+edge[style=dashed];
+
+
+Client1Socket--"UpdateState\nPayload to be determined";
+Client2Socket--"UpdateState\nPayload to be determined";
+Client3Socket--"UpdateState\nPayload to be determined";
+Client4Socket--"UpdateState\nPayload to be determined";
+Client5Socket--"UpdateState\nPayload to be determined";
+Client6Socket--"UpdateState\nPayload to be determined";
+
+
+ServerListener--ClientSocket1;
+ServerListener--ClientSocket2;
+ServerListener--ClientSocket3;
+ServerListener--ClientSocket4;
+ServerListener--ClientSocket5;
+ServerListener--ClientSocket6; 
+
+
+ClientSocket1--"UpdateState\nPayload to be determined";
+ClientSocket2--"UpdateState\nPayload to be determined";
+ClientSocket3--"UpdateState\nPayload to be determined";
+ClientSocket4--"UpdateState\nPayload to be determined";
+ClientSocket5--"UpdateState\nPayload to be determined";
+ClientSocket6--"UpdateState\nPayload to be determined";
+}

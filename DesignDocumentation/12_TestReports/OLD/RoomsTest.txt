@@ -1,0 +1,27 @@
+!THIS IS THE UNIT TEST FOR THE ROOMS CLASS!
+-------------------------------------------
+**This is a test of the isAroom() method.**
+Here we run the Chambers array through the isAroom() method
+to make sure that all rooms, are in fact rooms, and that the
+method is actually working. Expected output is no ouput.
+
+
+
+Now we input coordinates that were purposesly chosen 
+to not be part of a room.  Expected output is false.
+Coordinates to be input:
+X: 7 Y: 0
+Output: false
+--------------------
+**This is a test of the isAnull() method.**
+Here we run the Nulls array through the isAnull() method
+to make sure that all nulls, are in fact nulls, and that the
+method is actually working. Expected output is no ouput.
+
+
+
+Now we input coordinates that were purposesly chosen 
+to not be a null cell.  Expected output is false.
+Coordinates to be input:
+X: 7 Y: 0
+Output: false

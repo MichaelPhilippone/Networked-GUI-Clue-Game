@@ -1,0 +1,52 @@
+PROGRAM STARTED AT: 12/ 17/2008 12:6:30  (mm/dd/yyy hh:mm:ss)
+
+
+
+Message Passing and method calls Test Report
+
+Client Startup
+
+4 Steps to test message passing and method calls
+  1) Create a ClientSocket to connect with the testing server process
+  2) create a connection with another ClientSocket instance
+  3) send Strings that lead to method calls in Server
+  4) receive Strings to confirm methods were called
+  5) close the connection
+
+CLIENT: Step 01 Success: working so far(create connection)
+
+Test send() in clientSocket
+passed in the move protocol
+Expected output:                    move 13 12  -the move method was called
+CLIENT: from server  Actual output: move 13 12  -the move method was called
+
+Test send() in clientSocket
+passed in the accuse protocol
+Expected output:                    
+		accuse miss_white rope study  -the move method was called
+CLIENT: from server:  
+		Actual output: accuse miss_white rope study  -the accuse method was called
+
+Test send() in clientSocket
+passed in the guess protocol
+Expected output:                    
+									guess miss_scarlet revolver  -the move method was called
+CLIENT: from server:  
+ 	 Actual output: guess miss_scarlet revolver  -the guess method was called
+
+Test send() in clientSocket
+passed in the exit protocol
+Expected output:                    
+								 exit  -the setComputerPlayer method was called
+CLIENT: from server:  
+	Actual output: exit  -the setComputerPlayer method was called
+
+Test send() in clientSocket
+passed in the endturn protocol
+Expected output:                    endturn  -the nextPlayr method was called
+CLIENT: from server  Actual output: endturn  -the nextPlayer method was called
+
+CLIENT: the connection has been closed, Step 5 success
+
+The test was a complete success. No bugs of any kind
+Did not test error strings because it never occurs in the game

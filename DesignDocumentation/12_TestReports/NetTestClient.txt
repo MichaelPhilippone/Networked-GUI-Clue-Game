@@ -1,0 +1,14 @@
+PROGRAM STARTED AT: 12/ 17/2008 12:7:14  (mm/dd/yyy hh:mm:ss)
+
+
+
+Client Startup
+4 Steps to test ClientSocket (test client):
+  1) Create a ClientSocket to connect with the testing server process
+  2) create a connection with another ClientSocket instance
+  3) communicate (send and receive packets)
+  4) close the connection
+CLIENT: Step 01 Success: working so far
+CLIENT: sent info to server, if printed from server: Step 02 success.
+CLIENT: From sever: ha ha, i got it to work
+CLIENT: the connection has been closed, Step 4 success

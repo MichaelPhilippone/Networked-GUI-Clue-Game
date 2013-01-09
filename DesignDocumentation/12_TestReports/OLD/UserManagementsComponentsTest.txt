@@ -1,0 +1,75 @@
+Testing the User Management Components.
+This is done in several steps:
+  1) First, test the ability of the system to create a Users object
+  2) Once the Users object is created, listen for incoming connection requests 
+      -> creating players until there are the required numbers (specifically, 6)
+  3) Once the players are all connected, print out their metaData
+      -> To show that they are in fact connected and to prove that all of the data was sent on the Socket.
+  4) Then test writing a string to all of the players
+	  -> To simulate an update in the actual game play
+
+
+Creating the Users object then listening for requests...
+USERS: listening...
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 50318
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: Player_0
+SERVERLISTENER: Player_0
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 50319
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: Player_1
+SERVERLISTENER: Player_1
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 50320
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: Player_2
+SERVERLISTENER: Player_2
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 50321
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: Player_3
+SERVERLISTENER: Player_3
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 50322
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: Player_4
+SERVERLISTENER: Player_4
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 50323
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: Player_5
+SERVERLISTENER: Player_5
+SERVERLISTENER: Required number of players connected.
+USERS: made it to the end of the user's constructor
+Players connected...
+Players' metadata: 
+T_T_Player_0 Player's name: T_Player_0
+T_T_Player_0 Player's piece: Miss_Scarlet
+T_T_Player_0 Player's connection order: -1
+T_T_Player_1 Player's name: T_Player_1
+T_T_Player_1 Player's piece: Professor_Plum
+T_T_Player_1 Player's connection order: -1
+T_T_Player_2 Player's name: T_Player_2
+T_T_Player_2 Player's piece: Mrs._Peacock
+T_T_Player_2 Player's connection order: -1
+T_T_Player_3 Player's name: T_Player_3
+T_T_Player_3 Player's piece: Mr._Green
+T_T_Player_3 Player's connection order: -1
+T_T_Player_4 Player's name: T_Player_4
+T_T_Player_4 Player's piece: Miss_White
+T_T_Player_4 Player's connection order: -1
+T_T_Player_5 Player's name: T_Player_5
+T_T_Player_5 Player's piece: Colonel_Mustard
+T_T_Player_5 Player's connection order: -1
+Writing to all players...
+
+
+Done. Exiting.

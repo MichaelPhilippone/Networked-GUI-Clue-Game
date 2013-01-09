@@ -1,0 +1,35 @@
+Move diagram:
+
+Client sends end turn command, not next player()
+the server reads the command and calls gameLogic to
+update the nextPlayer(), which returns void at this point.  I can make it call move if needed.
+Server then calls the move in gameLogic.
+move calls the board which calls piece, all accessible by gameLogic.
+gameLogic never updates the board, only alters it.
+after move finishes, it returns void, the server sends the altered board to the client, not gameLogic.
+the new position() method is called relocate, cause that is what we are doing.
+change board() is serialize(), which returns a 2D array of color strings.
+after the serialize(), the server sends out the update board, not the gameBoard.
+
+guess invalid diagram:
+
+gameLogic calls relocate(), not gameBoard.
+relocate returns void.
+getOwner() takes a string value of the card name.
+invalid owner returns 8, a non-owner, the held cards, returns 7.
+getOwner needs called 3 times, once for each card.
+gameLogic must call serialize before the updated board can be displayed.
+
+guess valid diagram:
+gameLogic calls relocate(), not gameBoard.
+relocate returns void.
+getOwner() takes a string value of the card name.
+invalid owner returns 8, a non-owner, the held cards, returns 7. otherwise, the player number.
+getOwner needs called 3 times, once for each card.
+CardToShow comes from server, not gameLogic.
+show() does not reach gameLogic.  It has no need of that info.  the server displays the card along with the updated board at this point.
+
+accuse diagram:
+
+checkMystery() is accuse(), which takes three string values, one for each card.  returns a boolean value.
+the server then does the rest, not gameLogic.

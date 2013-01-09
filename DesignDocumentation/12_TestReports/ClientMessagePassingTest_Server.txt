@@ -1,0 +1,54 @@
+PROGRAM STARTED AT: 12/ 17/2008 12:1:9  (mm/dd/yyy hh:mm:ss)
+
+
+
+Starting ServerSocket...
+Message Passing and method calls in Client Test Report
+
+Server Startup
+
+4 Steps to test message passing and method calls
+  1) Create a ClientSocket to accept connecgtion from client
+  2) send Strings that lead to method calls in Server
+  3) receive Strings to confirm methods were called
+  4) close the connection
+
+Step 1 is a success
+
+Test send() in clientSocket
+passed in the gameover protocol
+Expected output:                      -the systemShutdown method was called
+SERVER: from client  Actual output:   -the systemShutdown method was called
+
+Test send() in clientSocket
+passed in the update protocol
+Expected output:
+                  7,0,blue,true;7,1,grey,true  - parseUpdateString method was called
+SERVER: from client:  
+   Actual output: 7,0,blue,true;7,1,grey,true  - parseUpdateString method was called
+
+Test send() in clientSocket
+passed in the inform protocol
+Expected output:
+                  the test is working well  - inform method was called
+SERVER: from client  
+   Actual output: the test is working well  - inform method was called
+
+Test send() in clientSocket
+passed in the havecard protocol
+Expected output:                    7;6  -the haveCards method was called
+SERVER: from client  Actual output: 7;6  -the haveCards method was called
+
+Test send() in clientSocket
+passed in the choosecard protocol
+Expected output:                    7;6  -the inform method was called
+SERVER: from client  Actual output: 7;6  -the inform method was called
+
+Test send() in clientSocket
+passed in an error string (no protocol)
+Expected output:                    invalid string
+SERVER: from client  Actual output: invalid string
+
+SERVER: the connection has been closed, Step 5 success
+
+The test was a complete success. No bugs of any kind

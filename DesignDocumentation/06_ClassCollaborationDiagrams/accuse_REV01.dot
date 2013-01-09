@@ -1,0 +1,32 @@
+digraph dg{
+Client[shape=box];
+ClientSocket[shape=box];
+Server[shape=box];
+"ClientSocket "[shape=box];
+GameLogic[shape=box];
+Cards[shape=box];
+Player[shape=box];
+GUI[shape=box];
+
+Client->"ClientSocket "[color=blue,label="Send/receive info"];
+"ClientSocket "->Client[color=red];
+
+Player->ClientSocket[color=red];
+ClientSocket->Player[color=blue,label="Send/receive info"];
+
+Server->GameLogic[color=blue,label="Game flow control"];
+GameLogic->Server[color=red];
+
+Cards->GameLogic[color=red,label="Card owners"];
+GameLogic->Cards[color=blue,label="Request card owners"];
+
+Player->Server[color=blue,label="Make accusation"];
+Server->Player[color=red,label="Accusation results"];
+
+Client->GUI[color=red,label="Results"];
+GUI->Client[color=blue,label="Select accusation"];
+
+edge[style=dashed];
+ClientSocket->"ClientSocket "[len=3,color=red];
+"ClientSocket "->ClientSocket[len=3,label="Network",color=blue];
+}

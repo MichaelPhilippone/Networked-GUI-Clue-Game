@@ -1,0 +1,74 @@
+\documentclass[a4paper,titlepage,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%PACKAGES:
+
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{color}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%PREAMBLE:
+
+%make the title info:
+\author{Michael Philippone \and Todd Wright \and Matt SeGall \and Erich Schudt}
+\title{The \textcolor{green}{\textbf{\underline{Green}}} Team: \\ Design \& Documentation }
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%FANCY HEADER / FOOTER:
+\pagestyle{fancy}
+%Clear out the header and footer:
+\fancyhead{}
+\fancyfoot{}
+%now, using the following placeholders, create our own header(s) and footer(s)
+%	E: even page
+%	O: odd page
+%	L: left field
+%	C: center field
+%	R: right field
+%	H: header
+%	F: footer
+\fancyhead[LO,LE]{The \textcolor{green}{\textbf{\underline{Green}}} Team: \\ Design \& Documentation}
+\fancyhead[RO,RE]{{\small Michael Philippone, Todd Wright, \\ Matt SeGall and Erich Schudt}}
+\fancyfoot[CO,CE]{\thepage}
+%\fancyfoot[RO,RE]{\thesection}
+\fancyfoot[LE,LO]{{\tiny (Last modified: \today)}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+	
+	%print out a formatted title segment using the metadata from the preamble
+	\thispagestyle{empty} % no header or footer on title page
+	\maketitle
+	
+	%expand into a TOC where the \tableofcontents cmd is issued
+	\tableofcontents
+	\newpage
+	
+	%	the code in the input'd file ('.tex' is auto-appended)
+	%	is injected into this document right here: 
+	%	\input{} means no new page
+	%	\include{} puts the content in a new page
+		\include{InformalScenarios}
+		\include{SupportedActivities}
+		\include{ClassList}
+		\include{UseCases}
+		\include{FormalScenarios}
+		\include{ClassCollaborationDiagrams}
+		\include{ObjectDiagrams}
+		\include{SequenceDiagrams}
+		\include{ImplementationPlan}
+	%	\include{ClassSkeleton}
+		\include{TestPlan}
+	
+	\appendix
+
+		\include{SocketStrings}
+		\include{WhatWeLearned}
+		\include{TestReports}
+		\include{Minutes}
+		\include{TeamContacts}
+		
+\end{document}

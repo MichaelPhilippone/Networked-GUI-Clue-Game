@@ -1,0 +1,24 @@
+PROGRAM STARTED AT: 12/ 17/2008 12:1:16  (mm/dd/yyy hh:mm:ss)
+
+
+
+CLIENT: Step 01 Success: working so far(create connection)
+got into while loop
+read message 1
+got into while loop
+CLIENT(testerGuy): update 
+read message 2
+got into while loop
+CLIENT(testerGuy): inform: the test is working well
+read message 3
+got into while loop
+CLIENT(testerGuy): havecard: 7;6
+read message 4
+got into while loop
+CLIENT(testerGuy): choosecard: 7;6
+read message 5
+got into while loop
+CLIENT(testerGuy): error reading string from server.  
+                   Unrecognizable socket message.
+CLIENT(testerGuy): server sent: "error".
+read message 6

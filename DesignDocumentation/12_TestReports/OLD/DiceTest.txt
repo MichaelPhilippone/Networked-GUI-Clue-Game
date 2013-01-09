@@ -1,0 +1,7 @@
+!THIS IS A UNIT TEST OF THE DICE CLASS!
+---------------------------------------
+**This is a test of the Roll() method.**
+Populate a Dice array with 1000 rolls.  Check
+if each roll is not less than 1, and not greater than 6.
+Expected output is that no errors occured.
+Output: No errors!

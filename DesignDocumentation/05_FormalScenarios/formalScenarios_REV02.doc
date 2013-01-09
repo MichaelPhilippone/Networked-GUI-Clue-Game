@@ -1,0 +1,239 @@
+{\rtf1\ansi\ansicpg1252\deff0\uc1{\fonttbl{\f0\fcharset0 Times New Roman;}}{\colortbl
+;}{\stylesheet{\s0\nowidctlpar\nooverflow\sl240\slmult1\f0\lang1033\fs20\kerning28
+Normal;}}\paperw12240\paperh15840\margt1440\margl1800\margr1800\margb1440\headery720
+\footery864\deftab720\pgnstart1\viewkind1\viewscale100\fet0{\*\docvar{ColorSet}{
+-1}}{\*\docvar{ColorPos}{-1}}{\*\docvar{StyleSet}{-1}}{\*\docvar{StylePos}{-1}}\pard\plain\pard\nowidctlpar\nooverflow\jcompress\qc\sl240\slmult1{\f0\lang1033\fs28
+\kerning28{\header\pard\nowidctlpar\nooverflow\jcompress\sl240\slmult1\tqc\tx4320
+\tqr\tx8640{\fs20\kerning0\par}
+
+\fs20\par}{\footer\pard\nowidctlpar\nooverflow\jcompress\sl240\slmult1\tqc\tx4320
+\tqr\tx8640{\fs20\kerning0\par}
+
+\fs20\par}Formal Scenarios\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Note:{\b0  server == server machine, not Server object.\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\ul\f0\lang1033\fs24\kerning28
+Startup (success)\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Previous Scenario{\b0 : None\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Scenario{\b0 : \par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+The server-side computer is turned on and the server-side software is launched.  
+On launch, the Server creates the GameLogic and Users objects.  GameLogic creates
+ the Cards object, Dice object, and the GameBoard object, which in turn creates 
+the Pieces and  Rooms.  Users creates null Player objects and the ServerListener
+ object.\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+Meanwhile, on the client-side computers the client-side software is launched.  On
+ launch the Client creates the GUI, BoardModel and ClientSocket objects.  The client
+ GUI presents a list of fields to be filled in, including player name and player
+ IP address.  Upon hitting a send button on the GUI, a message is sent to the now
+-waiting ServerListener.  The ServerListener reads the information and creates a
+ connection by calling on the Users to create a Player with a ClientSocket.  The
+ Users logs the order in which the Players connect, assigning pieces and starting
+-positions based on connection order.  \par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+Once the requisite number of Players has been reached, Game Logic (having randomized
+ the room, player, and weapon cards as well as set one of each type aside for the
+ goal) distributes the cards\emdash via the server-side ClientSocket\emdash to the
+ Clients.  The Server then pushes the GameBoard model to the connected Clients.  
+The Clients then updates the GUI with the new board, card and player information
+.  Finally, the Server orders GameLogic to start game play, which allows the first
+-connected client to begin game play.\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Next Scenario{\b0 : Move\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\f0\lang1033\fs24\kerning28
+\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\ul\f0\lang1033\fs24\kerning28
+Startup (fail)\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Previous Scenario{\b0 : None\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Scenario{\b0 :  \par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+The server-side computer is turned on and the server-side software is launched.  
+On launch, the Server creates the GameLogic and Users objects.  GameLogic creates
+ the Cards object, Dice object, and the GameBoard object, which in turn creates 
+the Pieces and  Rooms.  Users creates null Player objects and the ServerListener
+ object.\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+Meanwhile, on the client-side computers the client-side software is launched.  On
+ launch the Client creates the GUI, BoardModel and ClientSocket objects.  The client
+ GUI presents a list of fields to be filled in, including player name and player
+ IP address.  Upon hitting a send button on the GUI, a message is sent to the now
+-waiting ServerListener.  \par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+As the Server attempts to read the message, it is unable to establish a connection
+ with the client.  The Server ignores the attempt and continues waiting.  The client
+ GUI, upon not receiving a verification or connection, displays a message stating
+ the connection was refused.\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Next Scenario{\b0 : None\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\f0\lang1033\fs24\kerning28
+\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\f0\lang1033\fs24\kerning28
+\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\f0\lang1033\fs24\kerning28
+\par}
+
+\pard\keepn\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\ul\f0\lang1033\fs24
+\kerning28 Move\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Previous Scenario{\b0 : Startup (success) or Move\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Scenario{\b0 : \par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+The game play has started.  A new move is determined by the GameLogic when it receives
+ a message that the previous turn has ended from the previous player.  Dice generates
+ a random number between 1 and 6.  The GameLogic determines all possible ending 
+points based on the number from the \u8220\'93roll\u8221\'94.  The GameBoard sends
+\emdash to the player\u8217\'92s BoardModel\emdash a game board to display with 
+all the endpoints (ie: into a room, out of a room, along corridor, or through tunnel
+) highlighted for the player.  The player then chooses which way and how far to 
+move.  This can be into a room, out of a room, through a corridor, or secret passage
+, all determined by the GameLogic. The player selects one of the endpoints.  This
+ new position is sent to the server.  The GameLogic verifies the new position and
+ sends it to Pieces via GameBoard and then updates all client boards.  \par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Next Scenario{\b0 : Move, Guess, Accuse\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\f0\lang1033\fs24\kerning28
+\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\ul\f0\lang1033\fs24\kerning28
+Guess{\b0\ulnone\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Previous Scenario{\b0 : Move\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Scenario{\b0 : \par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+The player has just entered a room and is prompted on his/her GUI to make a guess
+ regarding that room.  The player has the option to make the guess or pass on it
+.  If they choose to make the guess they are prompted (via GUI) for a character, 
+a weapon and the current room is implied.  Once the player chooses the guess attributes
+, the guess is sent to the server.  The Server contacts the GameLogic.  The GameLogic
+ finds which player was guessed and has the GameBoard changed so that the guessed
+ player is moved to the corresponding room.  The GameLogic determines that the guessed
+ cards are held by no other player.  All of the players are notified by the server
+ that a guess has been made, what the guess was and that it was not disproved.  
+All of the boards are updated to reflect the changes made by the guess.\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Next Scenario{\b0 : Move or Accuse\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\f0\lang1033\fs24\kerning28
+\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\ul\f0\lang1033\fs24\kerning28
+Guess (Disproved)\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Previous Scenario{\b0 : Move\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Scenario{\b0 : \par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+The player has just entered a room and is prompted on his/her GUI to make a guess
+ regarding that room.  The player has the option to make the guess or pass on it
+.  If they choose to make the guess they are prompted (via GUI) for a character, 
+a weapon and the current room is implied.  Once the player chooses the guess attributes
+, the guess is sent to the server.  The GameLogic finds which player was guessed
+ and changes the GameBoard so that the guessed player is moved to the corresponding
+ room.  The GameLogic takes the guess and matches the cards to players.  The GameLogic
+ has the Server contact the first player holding a card.  The first card holder 
+will be forced to show a card.  If that player only has one, it is sent to the guessing
+ player as proof and the card holder is notified they disproved the guess with their
+ card.  If that player has two or more of the guessed cards, that player will be
+ prompted for which to show the player.  The Server then notifies all players that
+ a guess has been made, what the guess was and that it was disproved.  All of the
+ boards are updated to reflect the changes made by the guess.\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Next Scenario{\b0 : Move or Accuse\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\f0\lang1033\fs24\kerning28
+\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\ul\f0\lang1033\fs24\kerning28
+Accuse (win)\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Previous Scenario{\b0 : Any game-play scenario\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Scenario{\b0 : \par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+The player, at any point in their turn, can elect to make an accusation and is prompted
+ on his/her GUI to specify which character, which weapon, and which room they would
+ like to accuse.  The Server then contacts the GameLogic.  It will attempt to match
+ the accusation against the secret cards.  It finds all three match.  The Server
+ then notifies all players that an accusation has been made, what the cards were
+ and that the player has won.  The Server then destroys the Players, resets itself
+, and waits for players to connect for another game.  The Client then shows the 
+opening screen on the GUI.\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Next Scenario{\b0 : {\i NA} \par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\f0\lang1033\fs24\kerning28
+\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\ul\f0\lang1033\fs24\kerning28
+Accuse (lose)\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Previous Scenario{\b0 : Any game-play scenario\par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Scenario{\b0 : \par}}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1\fi720{\f0\lang1033\fs24\kerning28
+The player, at any point in their turn, can elect to make an accusation and is prompted
+ on his/her GUI to specify which character, which weapon, and which room they would
+ like to accuse.  The Server then contacts the GameLogic which attempts to match
+ the accusation against the secret cards.  The cards do not match and the player
+\u8217\'92s accusation is refuted by showing him/her the appropriate secret cards
+.  The Server then notifies all players that an accusation has been made, what the
+ cards were and that the player has lost but will continue to play only as far as
+ proving or disproving guesses by other players.  If this player is the last player
+ to make an incorrect accusation, the game ends with no winners and all are notified
+ that the game is over.  The Server then destroys the Players, resets itself, and
+ waits for players to connect for another game.  The Client then shows the opening
+ screen on the GUI.\par}
+
+\pard\nowidctlpar\nooverflow\jcompress\qj\sl240\slmult1{\b\f0\lang1033\fs24\kerning28
+Next Scenario{\b0 : {\i NA} \par}}
+
+}

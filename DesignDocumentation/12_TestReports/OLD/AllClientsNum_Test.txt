@@ -1,0 +1,65 @@
+This test is to show that the required number of clients 
+   can connect to a running server instance and properly set themselves 
+   for a game to begin.
+This includes:
+  - Connecting and registering with the Server process
+      (Sending username)
+      (receiveing information about the player's assigned game piece)
+  - Obtaining a current model of the board to display on the GUI.
+  - Obtaining and displaying the hand of 3 cards the player has been dealt
+  - The first player should have a roll occurr
+  - All other player should be alerted to the roll's value
+  - The first player's board should light up with the appropriate ending spaces
+
+That is the extent of the preplay.
+
+The console out put from this test run, in conjunciton with the GUI 
+  Panel updates will prove that the above conditions occurred (or did not occurr)
+
+Please also refer to the Server process' "Clue_LOG.txt" file for more information on 
+  connection and communication conditions
+
+The Rest of this file is the output from the requisite number of Client threads and 
+  and their subsequent Game updates and client-server communications
+
+NOTE: this test turns off after 2 minutes, since no one is playing the game, there will be no progress.
+
+********************************************************************************************
+
+
+BEGIN
+********************************************************************************************
+
+
+CLIENT(mphilip1_0): username: mphilip1_0
+CLIENT(mphilip1_1): username: mphilip1_1
+CLIENT(mphilip1_2): username: mphilip1_2
+CLIENT(mphilip1_3): username: mphilip1_3
+CLIENT(mphilip1_4): username: mphilip1_4
+CLIENT(mphilip1_5): username: mphilip1_5
+CLIENT(mphilip1_1): inform: You have been assigned the piece"Professor_Plum"
+CLIENT(mphilip1_0): inform: You have been assigned the piece"Miss_Scarlet"
+CLIENT(mphilip1_3): inform: You have been assigned the piece"Mr._Green"
+CLIENT(mphilip1_5): inform: You have been assigned the piece"Colonel_Mustard"
+CLIENT(mphilip1_4): inform: You have been assigned the piece"Miss_White"
+CLIENT(mphilip1_2): inform: You have been assigned the piece"Mrs._Peacock"
+CLIENT(mphilip1_1): havecard: Rope;Pipe;Miss_White
+CLIENT(mphilip1_4): havecard: Billiard_Room;Colonel_Mustard;Study
+CLIENT(mphilip1_3): havecard: Mr._Green;Wrench;Kitchen
+CLIENT(mphilip1_5): havecard: Knife;Lounge;Miss_Scarlet
+CLIENT(mphilip1_2): havecard: Hall;Observatory;Library
+CLIENT(mphilip1_0): havecard: Ballroom;Candlestick;Mrs._Peacock
+CLIENT(mphilip1_0): update 
+CLIENT(mphilip1_1): update 
+CLIENT(mphilip1_2): update 
+CLIENT(mphilip1_3): update 
+CLIENT(mphilip1_4): update 
+CLIENT(mphilip1_5): update 
+CLIENT(mphilip1_3): inform: mphilip1_0 has rolled a 3
+CLIENT(mphilip1_4): inform: mphilip1_0 has rolled a 3
+CLIENT(mphilip1_2): inform: mphilip1_0 has rolled a 3
+CLIENT(mphilip1_1): inform: mphilip1_0 has rolled a 3
+CLIENT(mphilip1_0): inform: mphilip1_0 has rolled a 3
+CLIENT(mphilip1_5): inform: mphilip1_0 has rolled a 3
+CLIENT(mphilip1_0): update 
+CLIENTTEST: started at 1229470817305, ended at 1229470937339 ran for 2 minutes.

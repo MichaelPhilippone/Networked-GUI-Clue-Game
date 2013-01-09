@@ -1,0 +1,36 @@
+graph bg{
+
+Server--ServerListener;
+Server--GameLogic;
+Server--"Users\nArray[6]";
+
+GameLogic--"GameBoard\nBoard[10][10]\nLinkRooms[9]";
+GameLogic--"Cards" ;
+GameLogic--"Dice\nRandom:1-6";
+
+"GameBoard\nBoard[10][10]\nLinkRooms[9]"--"Rooms\nBillard Room\nKitchen\nLibrary\nDining Room\nStudy\nLounge\nBall Room\nObservatory\nHall";
+"GameBoard\nBoard[10][10]\nLinkRooms[9]"--"Pieces";
+
+Client1--ClientSocket1;
+Client2--ClientSocket2;
+Client3--ClientSocket3;
+Client4--ClientSocket4;
+Client5--ClientSocket5;
+Client6--ClientSocket6;
+
+
+Client1--GUI1;
+Client2--GUI2;
+Client3--GUI3;
+Client4--GUI4;
+Client5--GUI5;
+Client6--GUI6;
+
+
+Client1--"BoardModel1\nBoard[10][10]\nRooms[9]";
+Client2--"BoardModel2\nBoard[10][10]\nRooms[9]";
+Client3--"BoardModel3\nBoard[10][10]\nRooms[9]";
+Client4--"BoardModel4\nBoard[10][10]\nRooms[9]";
+Client5--"BoardModel5\nBoard[10][10]\nRooms[9]";
+Client6--"BoardModel6\nBoard[10][10]\nRooms[9]";
+}

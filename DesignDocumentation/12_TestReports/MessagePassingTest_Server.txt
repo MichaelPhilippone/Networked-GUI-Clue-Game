@@ -1,0 +1,25 @@
+PROGRAM STARTED AT: 12/ 17/2008 12:6:25  (mm/dd/yyy hh:mm:ss)
+
+
+
+Server Startup
+4 Steps to test message passing and method calls
+  1) Create a ClientSocket to connect with the testing client process
+  2) receive strings that lead to method calls
+  3) send confirmation to client that right strings were received
+  4) close the connection
+SERVER: Step 01 Success
+Starting ServerSocket...
+SERVER: step 2 is also good
+got message 1
+got message 2
+got message 3
+GAMELOGIC: piece relocated, card owners found, 
+			beginning determine which to show
+GAMELOGIC: some one can disprove guess, either 8, 8, or 2
+GAMELOGIC: owner order is: 2 8 8
+GAMELOGIC: Two belong to one player
+got message 4
+got message 5
+SERVER: the connection has been closed, Step 4 success
+Refer to client side's console for test report

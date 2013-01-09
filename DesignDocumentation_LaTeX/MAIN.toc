@@ -1,0 +1,34 @@
+\contentsline {part}{I\hspace {1em}Informal Scenarios}{3}
+\contentsline {part}{II\hspace {1em}Supported Activities}{5}
+\contentsline {part}{III\hspace {1em}Primary Classes}{7}
+\contentsline {part}{IV\hspace {1em}Use Cases}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {part}{V\hspace {1em}Formal Scenarios}{14}
+\contentsline {part}{VI\hspace {1em}Class Collaboration Diagrams}{18}
+\contentsline {part}{VII\hspace {1em}Object Diagrams}{22}
+\contentsline {part}{VIII\hspace {1em}Sequence Diagrams}{25}
+\contentsline {part}{IX\hspace {1em}Implementation Plan}{32}
+\contentsline {part}{X\hspace {1em}Unit Testing Plan}{34}
+\contentsline {part}{XI\hspace {1em}Socket Communication Protocol}{37}
+\contentsline {part}{XII\hspace {1em}What We've Learned}{39}
+\contentsline {part}{XIII\hspace {1em}Test Reports}{41}
+\contentsline {section}{\numberline {A}Unit Testing}{41}
+\contentsline {subsection}{\numberline {A.1} Test Cards class}{41}
+\contentsline {subsection}{\numberline {A.2} Test Dice class}{44}
+\contentsline {subsection}{\numberline {A.3} Test GameBoard class}{45}
+\contentsline {subsection}{\numberline {A.4} Test GameLogic class}{46}
+\contentsline {subsection}{\numberline {A.5} Test Pieces class }{49}
+\contentsline {subsection}{\numberline {A.6} Test Rooms class }{52}
+\contentsline {subsection}{\numberline {A.7} Test message passing between Client and Server (client-side output) }{53}
+\contentsline {subsection}{\numberline {A.8} Test message passing between Client and Server (server-side output) }{55}
+\contentsline {subsection}{\numberline {A.9} Test message proper message receiveing in Client (client-side output) }{56}
+\contentsline {subsection}{\numberline {A.10} Test message proper message receiveing in Client (server-side output) }{57}
+\contentsline {subsection}{\numberline {A.11} Network components testing (bottom-up test, client-side output) }{59}
+\contentsline {subsection}{\numberline {A.12} Network components testing (bottom-up test, server-side output)}{60}
+\contentsline {subsection}{\numberline {A.13} User Management components testing (client-side output) }{61}
+\contentsline {subsection}{\numberline {A.14} User Management components testing (server-side output) }{62}
+\contentsline {section}{\numberline {B}Integration Testing}{64}
+\contentsline {subsection}{\numberline {B.1} Testing Clients' connection to Server process: }{64}
+\contentsline {subsection}{\numberline {B.2} Sample Server output log}{66}
+\contentsline {part}{XIV\hspace {1em}Meeting Minutes}{69}
+\contentsline {part}{XV\hspace {1em}Team Member Contacts}{82}

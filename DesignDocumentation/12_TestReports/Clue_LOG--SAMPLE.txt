@@ -1,0 +1,99 @@
+
+SERVER: Debugging mode set to 'ON'.
+SERVER: All messages will be prefaced with the originating component in caps.
+SERVER: program started at 12/ 17/2008 13:7:48  (mm/dd/yyy hh:mm:ss).
+
+USERS: listening...
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 52121
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: mphilip1_0
+PLAYER: Player created.  
+    IP: 127.0.0.1
+    Username: mphilip1_0
+    Assigned piece: Miss_Scarlet.
+SERVERLISTENER: mphilip1_0
+SERVERLISTENER: There are now 1 users connected.
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 52122
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: mphilip1_1
+PLAYER: Player created.  
+    IP: 127.0.0.1
+    Username: mphilip1_1
+    Assigned piece: Professor_Plum.
+SERVERLISTENER: mphilip1_1
+SERVERLISTENER: There are now 2 users connected.
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 52123
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: mphilip1_2
+PLAYER: Player created.  
+    IP: 127.0.0.1
+    Username: mphilip1_2
+    Assigned piece: Mrs._Peacock.
+SERVERLISTENER: mphilip1_2
+SERVERLISTENER: There are now 3 users connected.
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 52124
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: mphilip1_3
+PLAYER: Player created.  
+    IP: 127.0.0.1
+    Username: mphilip1_3
+    Assigned piece: Mr._Green.
+SERVERLISTENER: mphilip1_3
+SERVERLISTENER: There are now 4 users connected.
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 52125
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: mphilip1_4
+PLAYER: Player created.  
+    IP: 127.0.0.1
+    Username: mphilip1_4
+    Assigned piece: Miss_White.
+SERVERLISTENER: mphilip1_4
+SERVERLISTENER: There are now 5 users connected.
+SERVERLISTENER: Connection detected from:
+SERVERLISTENER:    ip: 127.0.0.1
+SERVERLISTENER:    remote port: 52126
+SERVERLISTENER:    local port: 64000
+SERVERLISTENER:    username: mphilip1_5
+PLAYER: Player created.  
+    IP: 127.0.0.1
+    Username: mphilip1_5
+    Assigned piece: Colonel_Mustard.
+SERVERLISTENER: mphilip1_5
+SERVERLISTENER: There are now 6 users connected.
+SERVERLISTENER: Required number of players connected.
+USERS: made it to the end of the user's constructor
+SERVER: made it to the end of server's createservercomponents method
+SERVER: made it to the preplay method!
+SERVER: true (result of inform piece name command sent to user: mphilip1_0)
+SERVER: true (result of inform piece name command sent to user: mphilip1_1)
+SERVER: true (result of inform piece name command sent to user: mphilip1_2)
+SERVER: true (result of inform piece name command sent to user: mphilip1_3)
+SERVER: true (result of inform piece name command sent to user: mphilip1_4)
+SERVER: true (result of inform piece name command sent to user: mphilip1_5)
+SERVER: true (result of havecard command sent to user: mphilip1_0)
+SERVER: true (result of havecard command sent to user: mphilip1_1)
+SERVER: true (result of havecard command sent to user: mphilip1_2)
+SERVER: true (result of havecard command sent to user: mphilip1_3)
+SERVER: true (result of havecard command sent to user: mphilip1_4)
+SERVER: true (result of havecard command sent to user: mphilip1_5)
+SERVER: true (result of update command sent to user: mphilip1_0)
+SERVER: true (result of update command sent to user: mphilip1_1)
+SERVER: true (result of update command sent to user: mphilip1_2)
+SERVER: true (result of update command sent to user: mphilip1_3)
+SERVER: true (result of update command sent to user: mphilip1_4)
+SERVER: true (result of update command sent to user: mphilip1_5)
+SERVER: TOP SECRET cards are: 
+        Miss_White did it in the Billiard_Room with the Pipe
+GAMELOGIC: dice roll value = 5
+SERVER: received "testingshutdown" from player: mphilip1_0 (while loop bottom)
+SERVER: System shutting down with exit code "4".

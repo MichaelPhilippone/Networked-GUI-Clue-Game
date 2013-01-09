@@ -1,0 +1,40 @@
+digraph dg{
+Client[shape=box];
+"ClientSocket "[shape=box];
+Server[shape=box];
+"ClientSocket"[shape=box];
+GameLogic[shape=box];
+Cards[shape=box];
+Player[shape=box];
+GUI[shape=box];
+ServerListener[shape=box];
+Pieces[shape=box];
+
+
+ServerListener->Server[color=blue,label="Send info"];
+
+Client->"ClientSocket "[color=blue,label="Send/receive info"];
+"ClientSocket "->Client[color=red];
+
+Player->"ClientSocket"[color=blue,label="Send/receive info"];
+"ClientSocket"->Player[color=red,label="Confirm network"];
+
+Server->GameLogic[color=blue,label="Data flow control"];
+GameLogic->Server[color=red];
+
+Cards->GameLogic[color=red,label=""];
+GameLogic->Cards[color=blue,label="Assign cards"];
+
+GameLogic->Pieces[color=blue,label="Assign piece"];
+Pieces->GameLogic[color=red];
+
+Player->Server[color=red,label="Confirm"];
+Server->Player[color=blue,label="Make player"];
+
+Client->GUI[color=red,label="Enter/Review Data"];
+GUI->Client[color=blue,label=""];
+
+edge[style=dashed];
+"ClientSocket "->ServerListener[label="Initial Network",color=blue];
+"ClientSocket"->"ClientSocket "[len=3,label="Post Network",color=red];
+}
